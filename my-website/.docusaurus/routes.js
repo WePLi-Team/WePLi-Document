@@ -3,190 +3,155 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/WePLi-Document/blog',
+    component: ComponentCreator('/WePLi-Document/blog', '740'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/WePLi-Document/blog/archive',
+    component: ComponentCreator('/WePLi-Document/blog/archive', 'cb5'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/WePLi-Document/blog/authors',
+    component: ComponentCreator('/WePLi-Document/blog/authors', '8aa'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/WePLi-Document/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/WePLi-Document/blog/authors/all-sebastien-lorber-articles', '2ff'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/WePLi-Document/blog/authors/yangshun',
+    component: ComponentCreator('/WePLi-Document/blog/authors/yangshun', 'f6e'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/WePLi-Document/blog/first-blog-post',
+    component: ComponentCreator('/WePLi-Document/blog/first-blog-post', 'f6f'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    path: '/WePLi-Document/blog/long-blog-post',
+    component: ComponentCreator('/WePLi-Document/blog/long-blog-post', '596'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    path: '/WePLi-Document/blog/mdx-blog-post',
+    component: ComponentCreator('/WePLi-Document/blog/mdx-blog-post', 'eec'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/WePLi-Document/blog/tags',
+    component: ComponentCreator('/WePLi-Document/blog/tags', 'dc7'),
     exact: true
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
+    path: '/WePLi-Document/blog/tags/docusaurus',
+    component: ComponentCreator('/WePLi-Document/blog/tags/docusaurus', 'a57'),
     exact: true
   },
   {
-    path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    path: '/WePLi-Document/blog/tags/facebook',
+    component: ComponentCreator('/WePLi-Document/blog/tags/facebook', 'e16'),
     exact: true
   },
   {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    path: '/WePLi-Document/blog/tags/hello',
+    component: ComponentCreator('/WePLi-Document/blog/tags/hello', '949'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    path: '/WePLi-Document/blog/tags/hola',
+    component: ComponentCreator('/WePLi-Document/blog/tags/hola', '984'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    path: '/WePLi-Document/blog/welcome',
+    component: ComponentCreator('/WePLi-Document/blog/welcome', '19e'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
+    path: '/WePLi-Document/markdown-page',
+    component: ComponentCreator('/WePLi-Document/markdown-page', 'd40'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    path: '/WePLi-Document/docs',
+    component: ComponentCreator('/WePLi-Document/docs', '4ac'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        path: '/WePLi-Document/docs',
+        component: ComponentCreator('/WePLi-Document/docs', '7eb'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            path: '/WePLi-Document/docs',
+            component: ComponentCreator('/WePLi-Document/docs', '2c9'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
+                path: '/WePLi-Document/docs/category/tutorial---basics',
+                component: ComponentCreator('/WePLi-Document/docs/category/tutorial---basics', '5ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
+                path: '/WePLi-Document/docs/category/tutorial---extras',
+                component: ComponentCreator('/WePLi-Document/docs/category/tutorial---extras', '132'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/WePLi-Document/docs/intro',
+                component: ComponentCreator('/WePLi-Document/docs/intro', '5a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
+                path: '/WePLi-Document/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/congratulations', '949'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
+                path: '/WePLi-Document/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/create-a-blog-post', 'af6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
+                path: '/WePLi-Document/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/create-a-document', '1f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
+                path: '/WePLi-Document/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/create-a-page', 'd54'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
+                path: '/WePLi-Document/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/deploy-your-site', 'c60'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
+                path: '/WePLi-Document/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/markdown-features', '563'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
+                path: '/WePLi-Document/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-extras/manage-docs-versions', '8d8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                path: '/WePLi-Document/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/WePLi-Document/docs/tutorial-extras/translate-your-site', '65b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -197,8 +162,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/WePLi-Document/',
+    component: ComponentCreator('/WePLi-Document/', 'bcb'),
     exact: true
   },
   {

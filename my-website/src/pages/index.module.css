@@ -50,7 +50,7 @@
 }
 
 .bannerContainer {
-  background: linear-gradient(180deg, #09151600, #091516 63.02%, #072027), url('img/bg_main_banner.jpeg');
+  background: linear-gradient(180deg, #09151600, #091516 63.02%, #072027), url(/img/bg_main_banner.jpeg);
   overflow: hidden;
   padding: 3rem 0;
   position: relative;

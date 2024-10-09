@@ -114,19 +114,19 @@ export default [
   },
   {
     path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', 'abb'),
+    component: ComponentCreator('/WePLi-Document/docs', '0c2'),
     routes: [
       {
         path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', '582'),
+        component: ComponentCreator('/WePLi-Document/docs', 'a13'),
         routes: [
           {
             path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', 'fb0'),
+            component: ComponentCreator('/WePLi-Document/docs', '1d1'),
             routes: [
               {
-                path: '/WePLi-Document/docs/category/software-requirements-specification',
-                component: ComponentCreator('/WePLi-Document/docs/category/software-requirements-specification', 'e7f'),
+                path: '/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs',
+                component: ComponentCreator('/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs', 'db7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

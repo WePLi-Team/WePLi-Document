@@ -51,8 +51,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/software-requirements-specification",
-              "path": "/WePLi-Document/docs/category/software-requirements-specification",
+              "id": "/category/소프트웨어-요구사항-명세서-srs",
+              "path": "/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs",
               "sidebar": "tutorialSidebar"
             }
           ],

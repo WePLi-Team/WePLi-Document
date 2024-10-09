@@ -2635,7 +2635,7 @@ body:not(.navigation-with-keyboard) :not(input):focus {
 }
 
 .logo_Ukns {
-  background-image: url(/assets/images/ring-1e7fa0615af289a7b89732f02eb68c43.png);
+  background-image: url(/img/logo.svg);
   background-size: contain;
   height: 70px;
   margin-bottom: .5rem;

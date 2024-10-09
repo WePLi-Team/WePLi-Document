@@ -50,30 +50,32 @@
 }
 
 .bannerContainer {
-  background:rgba(0, 0, 0, 0.5), url(/img/bg_main_banner.jpeg) no-repeat center center;
-  background-size: 100% 100%; 
-  overflow: hidden;
-  padding: 3rem 0;
   position: relative;
+  overflow: hidden;
+  background: url(/img/bg_main_banner.jpeg) no-repeat center center;
+  background-size: 100% 100%;
+  padding: 3rem 0;
   width: 100%;
 }
 
-.bannerContainer, .titleContainer {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.bannerContainer::after {
+.bannerContainer::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* 검은색 반투명 마스크 */
-  pointer-events: none; /* 마우스 이벤트 무시 (클릭 등이 배경이 아닌 요소에 적용됨) */
+  background: rgba(0, 0, 0, 0.5);
+  /* 검은색 반투명 마스크 */
+  pointer-events: none;
+}
+
+.bannerContainer,
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 

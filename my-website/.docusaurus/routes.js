@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', '37d'),
+    component: ComponentCreator('/WePLi-Document/docs', 'd92'),
     routes: [
       {
         path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', '996'),
+        component: ComponentCreator('/WePLi-Document/docs', '070'),
         routes: [
           {
             path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', '55a'),
+            component: ComponentCreator('/WePLi-Document/docs', '701'),
             routes: [
               {
                 path: '/WePLi-Document/docs/category/software-requirements-specification',
@@ -137,12 +137,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/category/tutorial---extras',
-                component: ComponentCreator('/WePLi-Document/docs/category/tutorial---extras', '132'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/WePLi-Document/docs/service-introduce',
                 component: ComponentCreator('/WePLi-Document/docs/service-introduce', '672'),
                 exact: true,
@@ -151,36 +145,6 @@ export default [
               {
                 path: '/WePLi-Document/docs/Softwrare Requirements Specification/appendices',
                 component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/appendices', '39e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-blog-post',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-blog-post', '8f5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-document',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-document', '0ee'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-page',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-page', '80f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/deploy-your-site',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/deploy-your-site', '4af'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/markdown-features',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/markdown-features', 'ee6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -217,18 +181,6 @@ export default [
               {
                 path: '/WePLi-Document/docs/Tech Stack/congratulations',
                 component: ComponentCreator('/WePLi-Document/docs/Tech Stack/congratulations', 'a44'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-extras/manage-docs-versions', '8d8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-extras/translate-your-site', '65b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

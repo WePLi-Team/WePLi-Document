@@ -21,31 +21,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Softwrare Requirements Specification/backup/create-a-blog-post",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/backup/create-a-document",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/backup/create-a-page",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/backup/deploy-your-site",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/backup/markdown-features",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Softwrare Requirements Specification/interface-requirements",
               "path": "/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements",
               "sidebar": "tutorialSidebar"
@@ -76,16 +51,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/WePLi-Document/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/WePLi-Document/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/tech-stack",
               "path": "/WePLi-Document/docs/category/tech-stack",
               "sidebar": "tutorialSidebar"
@@ -93,11 +58,6 @@
             {
               "id": "/category/software-requirements-specification",
               "path": "/WePLi-Document/docs/category/software-requirements-specification",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/WePLi-Document/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             }
           ],

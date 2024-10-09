@@ -249,17 +249,17 @@
     },
     "content": "content---we-p-li-document-markdown-page-393-8f6"
   },
-  "/WePLi-Document/docs-37d": {
+  "/WePLi-Document/docs-d92": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---we-p-li-document-docsaba-9bf"
     }
   },
-  "/WePLi-Document/docs-996": {
+  "/WePLi-Document/docs-070": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---we-p-li-document-docs-34-c-63c"
   },
-  "/WePLi-Document/docs-55a": {
+  "/WePLi-Document/docs-701": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/WePLi-Document/docs/category/software-requirements-specification-e7f": {
@@ -270,10 +270,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---we-p-li-document-docs-category-tech-stackc-45-773"
   },
-  "/WePLi-Document/docs/category/tutorial---extras-132": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---we-p-li-document-docs-category-tutorial-extras-5-a-3-f66"
-  },
   "/WePLi-Document/docs/service-introduce-672": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---we-p-li-document-docs-service-introducee-6-a-bec"
@@ -281,26 +277,6 @@
   "/WePLi-Document/docs/Softwrare Requirements Specification/appendices-39e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---we-p-li-document-docs-softwrare-requirements-specification-appendices-732-293"
-  },
-  "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-blog-post-8f5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-softwrare-requirements-specification-backup-create-a-blog-post-4-e-0-834"
-  },
-  "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-document-0ee": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-softwrare-requirements-specification-backup-create-a-document-8-e-6-416"
-  },
-  "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-page-80f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-softwrare-requirements-specification-backup-create-a-pagee-68-769"
-  },
-  "/WePLi-Document/docs/Softwrare Requirements Specification/backup/deploy-your-site-4af": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-softwrare-requirements-specification-backup-deploy-your-site-975-de0"
-  },
-  "/WePLi-Document/docs/Softwrare Requirements Specification/backup/markdown-features-ee6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-softwrare-requirements-specification-backup-markdown-features-155-a42"
   },
   "/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements-c41": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -325,14 +301,6 @@
   "/WePLi-Document/docs/Tech Stack/congratulations-a44": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---we-p-li-document-docs-tech-stack-congratulations-36-c-42d"
-  },
-  "/WePLi-Document/docs/tutorial-extras/manage-docs-versions-8d8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-tutorial-extras-manage-docs-versionsdff-08f"
-  },
-  "/WePLi-Document/docs/tutorial-extras/translate-your-site-65b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-tutorial-extras-translate-your-sitee-44-453"
   },
   "/WePLi-Document/-bcb": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

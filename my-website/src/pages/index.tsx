@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      // title={`${siteConfig.title}`} // 웹 페이지 탭 제목 부분
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

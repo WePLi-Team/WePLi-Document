@@ -17,13 +17,8 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className={`${styles.wepliSubscription}`}>{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+        <h2 className={`${styles.mainTitle}`}>위플리 개발간</h2>
+        <h2 className={`${styles.mainTitle}`}>다양한 경험을 공유합니다.</h2>
       </div>
     </header>
   );

@@ -3,178 +3,178 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/WePLi-Document/__docusaurus/debug',
-    component: ComponentCreator('/WePLi-Document/__docusaurus/debug', '25f'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/WePLi-Document/__docusaurus/debug/config',
-    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/config', '472'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/WePLi-Document/__docusaurus/debug/content',
-    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/content', '6dd'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/WePLi-Document/__docusaurus/debug/globalData',
-    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/globalData', '44f'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/WePLi-Document/__docusaurus/debug/metadata',
-    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/metadata', '4d8'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/WePLi-Document/__docusaurus/debug/registry',
-    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/registry', '99f'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/WePLi-Document/__docusaurus/debug/routes',
-    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/routes', '226'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog',
-    component: ComponentCreator('/WePLi-Document/blog', '740'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/archive',
-    component: ComponentCreator('/WePLi-Document/blog/archive', 'cb5'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/authors',
-    component: ComponentCreator('/WePLi-Document/blog/authors', '8aa'),
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/WePLi-Document/blog/authors/all-sebastien-lorber-articles', '2ff'),
+    path: '/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/authors/yangshun',
-    component: ComponentCreator('/WePLi-Document/blog/authors/yangshun', 'f6e'),
+    path: '/blog/authors/yangshun',
+    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/first-blog-post',
-    component: ComponentCreator('/WePLi-Document/blog/first-blog-post', 'f6f'),
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/long-blog-post',
-    component: ComponentCreator('/WePLi-Document/blog/long-blog-post', '596'),
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/mdx-blog-post',
-    component: ComponentCreator('/WePLi-Document/blog/mdx-blog-post', 'eec'),
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/tags',
-    component: ComponentCreator('/WePLi-Document/blog/tags', 'dc7'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/tags/docusaurus',
-    component: ComponentCreator('/WePLi-Document/blog/tags/docusaurus', 'a57'),
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/tags/facebook',
-    component: ComponentCreator('/WePLi-Document/blog/tags/facebook', 'e16'),
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', '858'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/tags/hello',
-    component: ComponentCreator('/WePLi-Document/blog/tags/hello', '949'),
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '299'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/tags/hola',
-    component: ComponentCreator('/WePLi-Document/blog/tags/hola', '984'),
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '00d'),
     exact: true
   },
   {
-    path: '/WePLi-Document/blog/welcome',
-    component: ComponentCreator('/WePLi-Document/blog/welcome', '19e'),
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'd2b'),
     exact: true
   },
   {
-    path: '/WePLi-Document/markdown-page',
-    component: ComponentCreator('/WePLi-Document/markdown-page', 'd40'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
-    path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', '5b1'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '918'),
     routes: [
       {
-        path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', '06a'),
+        path: '/docs',
+        component: ComponentCreator('/docs', 'a90'),
         routes: [
           {
-            path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', '954'),
+            path: '/docs',
+            component: ComponentCreator('/docs', 'df2'),
             routes: [
               {
-                path: '/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs',
-                component: ComponentCreator('/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs', 'db7'),
+                path: '/docs/category/소프트웨어-요구사항-명세서-srs',
+                component: ComponentCreator('/docs/category/소프트웨어-요구사항-명세서-srs', '9bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/intro',
-                component: ComponentCreator('/WePLi-Document/docs/intro', '5a4'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/service-introduce',
-                component: ComponentCreator('/WePLi-Document/docs/service-introduce', '672'),
+                path: '/docs/service-introduce',
+                component: ComponentCreator('/docs/service-introduce', '7f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/appendices',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/appendices', '39e'),
+                path: '/docs/Softwrare Requirements Specification/appendices',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/appendices', '9d7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements', 'c41'),
+                path: '/docs/Softwrare Requirements Specification/interface-requirements',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/interface-requirements', 'b39'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/introduction',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/introduction', '275'),
+                path: '/docs/Softwrare Requirements Specification/introduction',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/introduction', 'd6c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/overall-description',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/overall-description', 'fed'),
+                path: '/docs/Softwrare Requirements Specification/overall-description',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/overall-description', '29d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements', 'c9f'),
+                path: '/docs/Softwrare Requirements Specification/specific-requirements',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/specific-requirements', '0e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/tech-stack',
-                component: ComponentCreator('/WePLi-Document/docs/tech-stack', 'db0'),
+                path: '/docs/tech-stack',
+                component: ComponentCreator('/docs/tech-stack', 'b2d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -185,8 +185,8 @@ export default [
     ]
   },
   {
-    path: '/WePLi-Document/',
-    component: ComponentCreator('/WePLi-Document/', 'bcb'),
+    path: '/',
+    component: ComponentCreator('/', 'e5f'),
     exact: true
   },
   {

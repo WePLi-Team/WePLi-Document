@@ -1,5 +1,5 @@
 {
-  "permalink": "/WePLi-Document/blog/welcome",
+  "permalink": "/blog/welcome",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
@@ -9,19 +9,19 @@
     {
       "inline": false,
       "label": "Facebook",
-      "permalink": "/WePLi-Document/blog/tags/facebook",
+      "permalink": "/blog/tags/facebook",
       "description": "Facebook tag description"
     },
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/WePLi-Document/blog/tags/hello",
+      "permalink": "/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/WePLi-Document/blog/tags/docusaurus",
+      "permalink": "/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -33,7 +33,7 @@
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/WePLi-Document/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -49,7 +49,7 @@
       "title": "Front End Engineer @ Facebook",
       "url": "https://github.com/yangshun",
       "page": {
-        "permalink": "/WePLi-Document/blog/authors/yangshun"
+        "permalink": "/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -75,6 +75,6 @@
   "unlisted": false,
   "nextItem": {
     "title": "MDX Blog Post",
-    "permalink": "/WePLi-Document/blog/mdx-blog-post"
+    "permalink": "/blog/mdx-blog-post"
   }
 }

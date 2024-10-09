@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/WePLi-Document/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/WePLi-Document/blog/authors"
+  "authorsListPath": "/blog/authors"
 }

@@ -1,58 +1,58 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/WePLi-Document/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/WePLi-Document/docs",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/WePLi-Document/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "service-introduce",
-              "path": "/WePLi-Document/docs/service-introduce",
+              "path": "/docs/service-introduce",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Softwrare Requirements Specification/appendices",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/appendices",
+              "path": "/docs/Softwrare Requirements Specification/appendices",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Softwrare Requirements Specification/interface-requirements",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements",
+              "path": "/docs/Softwrare Requirements Specification/interface-requirements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Softwrare Requirements Specification/introduction",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/introduction",
+              "path": "/docs/Softwrare Requirements Specification/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Softwrare Requirements Specification/overall-description",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/overall-description",
+              "path": "/docs/Softwrare Requirements Specification/overall-description",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Softwrare Requirements Specification/specific-requirements",
-              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements",
+              "path": "/docs/Softwrare Requirements Specification/specific-requirements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tech-stack",
-              "path": "/WePLi-Document/docs/tech-stack",
+              "path": "/docs/tech-stack",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/소프트웨어-요구사항-명세서-srs",
-              "path": "/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs",
+              "path": "/docs/category/소프트웨어-요구사항-명세서-srs",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -60,7 +60,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/WePLi-Document/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

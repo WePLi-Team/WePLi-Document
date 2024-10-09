@@ -8,7 +8,7 @@ export default {
   "tagline": "Share Your Sound, Unite in Harmony",
   "favicon": "img/favicon.ico",
   "url": "https://wepli.site",
-  "baseUrl": "/WePLi-Document/",
+  "baseUrl": "/",
   "organizationName": "WePLi-Test",
   "projectName": "WePLi-Document",
   "onBrokenLinks": "throw",

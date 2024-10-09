@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'WePLi',
-  tagline: 'Share Your Sound',
+  tagline: 'Share Your Sound, Unite in Harmony',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Document',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -94,7 +94,7 @@ const config: Config = {
           items: [
             {
               label: 'Document',
-              to: '/docs/intro',
+              to: '/docs/summary',
             },
             {
               label: 'Blog',
@@ -125,7 +125,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project`,
     },
     prism: {
       theme: prismThemes.github,

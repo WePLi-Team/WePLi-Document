@@ -5,7 +5,7 @@
  */
 export default {
   "title": "WePLi",
-  "tagline": "Share Your Sound",
+  "tagline": "Share Your Sound, Unite in Harmony",
   "favicon": "img/favicon.ico",
   "url": "https://wepli-test.github.io",
   "baseUrl": "/WePLi-Document/",
@@ -62,7 +62,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Document"
         },
         {
           "to": "/blog",
@@ -85,7 +85,7 @@ export default {
           "items": [
             {
               "label": "Document",
-              "to": "/docs/intro"
+              "to": "/docs/summary"
             },
             {
               "label": "Blog",
@@ -116,7 +116,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 My Project"
     },
     "prism": {
       "theme": {

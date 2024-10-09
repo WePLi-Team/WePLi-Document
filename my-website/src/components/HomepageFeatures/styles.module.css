@@ -1241,7 +1241,7 @@ a {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #303846;
+  --ifm-footer-background-color: #1e1e1e;
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white)
@@ -3654,8 +3654,8 @@ hr {
   padding: var(--ifm-footer-padding-vertical) var(--ifm-footer-padding-horizontal)
 }
 
-.footer--dark_pNj_ {
-  --ifm-footer-background-color: #303846;
+.footer--dark {
+  --ifm-footer-background-color: #1e1e1e;
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white)
@@ -4283,7 +4283,7 @@ hr {
 }
 
 .hero__title {
-  color: var(--ifm-color-primary);
+  color: #20200;
   font-size: 3rem;
   letter-spacing: -.025em;
   line-height: 1

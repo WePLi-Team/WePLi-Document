@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "개요",
+  "description": "WePLi는 사람들이 음악을 통해 서로의 취향을 공유하고, 함께 플레이리스트를 만들어가는 소셜 음악 서비스입니다.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial - Test",
-    "permalink": "/WePLi-Document/docs/category/tutorial---test"
+    "title": "서비스 소개",
+    "permalink": "/WePLi-Document/docs/service-introduce"
   }
 }

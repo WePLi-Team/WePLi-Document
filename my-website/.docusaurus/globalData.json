@@ -8,46 +8,76 @@
           "label": "Next",
           "isLast": true,
           "path": "/WePLi-Document/docs",
-          "mainDocId": "intro",
+          "mainDocId": "summary",
           "docs": [
             {
-              "id": "intro",
-              "path": "/WePLi-Document/docs/intro",
+              "id": "service-introduce",
+              "path": "/WePLi-Document/docs/service-introduce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/appendices",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/appendices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/backup/congratulations",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/backup/create-a-blog-post",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/backup/create-a-document",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/backup/create-a-page",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/backup/deploy-your-site",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/backup/markdown-features",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/backup/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/interface-requirements",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/introduction",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/overall-description",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/overall-description",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/specific-requirements",
+              "path": "/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "summary",
+              "path": "/WePLi-Document/docs/summary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Tech Stack/congratulations",
               "path": "/WePLi-Document/docs/Tech Stack/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/WePLi-Document/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/WePLi-Document/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/WePLi-Document/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/WePLi-Document/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/WePLi-Document/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/WePLi-Document/docs/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -61,13 +91,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---test",
-              "path": "/WePLi-Document/docs/category/tutorial---test",
+              "id": "/category/tech-stack",
+              "path": "/WePLi-Document/docs/category/tech-stack",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tech-stack",
-              "path": "/WePLi-Document/docs/category/tech-stack",
+              "id": "/category/software-requirements-specification",
+              "path": "/WePLi-Document/docs/category/software-requirements-specification",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -80,8 +110,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/WePLi-Document/docs/intro",
-                "label": "intro"
+                "path": "/WePLi-Document/docs/summary",
+                "label": "summary"
               }
             }
           }

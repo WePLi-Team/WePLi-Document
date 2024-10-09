@@ -114,16 +114,22 @@ export default [
   },
   {
     path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', 'e6f'),
+    component: ComponentCreator('/WePLi-Document/docs', 'e63'),
     routes: [
       {
         path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', '5d1'),
+        component: ComponentCreator('/WePLi-Document/docs', '4fb'),
         routes: [
           {
             path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', '359'),
+            component: ComponentCreator('/WePLi-Document/docs', '41e'),
             routes: [
+              {
+                path: '/WePLi-Document/docs/category/software-requirements-specification',
+                component: ComponentCreator('/WePLi-Document/docs/category/software-requirements-specification', 'e7f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/WePLi-Document/docs/category/tech-stack',
                 component: ComponentCreator('/WePLi-Document/docs/category/tech-stack', 'dcf'),
@@ -137,56 +143,86 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/category/tutorial---test',
-                component: ComponentCreator('/WePLi-Document/docs/category/tutorial---test', '7e0'),
+                path: '/WePLi-Document/docs/service-introduce',
+                component: ComponentCreator('/WePLi-Document/docs/service-introduce', '672'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/intro',
-                component: ComponentCreator('/WePLi-Document/docs/intro', '5a4'),
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/appendices',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/appendices', '39e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/congratulations',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/congratulations', 'dda'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-blog-post',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-blog-post', '8f5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-document',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-document', '0ee'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-page',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/create-a-page', '80f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/deploy-your-site',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/deploy-your-site', '4af'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/markdown-features',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/markdown-features', 'ee6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/interface-requirements', 'c41'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/introduction',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/introduction', '275'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/overall-description',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/overall-description', 'fed'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements',
+                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements', 'c9f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/summary',
+                component: ComponentCreator('/WePLi-Document/docs/summary', '0d9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/WePLi-Document/docs/Tech Stack/congratulations',
                 component: ComponentCreator('/WePLi-Document/docs/Tech Stack/congratulations', 'a44'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/congratulations', '949'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/create-a-blog-post', 'af6'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/create-a-document', '1f6'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/create-a-page', 'd54'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/deploy-your-site', 'c60'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/WePLi-Document/docs/tutorial-basics/markdown-features', '563'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

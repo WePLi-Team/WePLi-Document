@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Tech Stack/congratulations",
+              "path": "/WePLi-Document/docs/Tech Stack/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/WePLi-Document/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -56,8 +61,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/WePLi-Document/docs/category/tutorial---basics",
+              "id": "/category/tutorial---test",
+              "path": "/WePLi-Document/docs/category/tutorial---test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tech-stack",
+              "path": "/WePLi-Document/docs/category/tech-stack",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -79,19 +79,19 @@ export default [
   },
   {
     path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', '4ac'),
+    component: ComponentCreator('/WePLi-Document/docs', 'e6f'),
     routes: [
       {
         path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', '7eb'),
+        component: ComponentCreator('/WePLi-Document/docs', '5d1'),
         routes: [
           {
             path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', '2c9'),
+            component: ComponentCreator('/WePLi-Document/docs', '359'),
             routes: [
               {
-                path: '/WePLi-Document/docs/category/tutorial---basics',
-                component: ComponentCreator('/WePLi-Document/docs/category/tutorial---basics', '5ef'),
+                path: '/WePLi-Document/docs/category/tech-stack',
+                component: ComponentCreator('/WePLi-Document/docs/category/tech-stack', 'dcf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -102,8 +102,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/WePLi-Document/docs/category/tutorial---test',
+                component: ComponentCreator('/WePLi-Document/docs/category/tutorial---test', '7e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/WePLi-Document/docs/intro',
                 component: ComponentCreator('/WePLi-Document/docs/intro', '5a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/Tech Stack/congratulations',
+                component: ComponentCreator('/WePLi-Document/docs/Tech Stack/congratulations', 'a44'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

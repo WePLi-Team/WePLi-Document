@@ -206,30 +206,38 @@
     },
     "content": "393be207"
   },
-  "/WePLi-Document/docs-4ac": {
+  "/WePLi-Document/docs-e6f": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/WePLi-Document/docs-7eb": {
+  "/WePLi-Document/docs-5d1": {
     "__comp": "a7bd4aaa",
     "__props": "34cea50e"
   },
-  "/WePLi-Document/docs-2c9": {
+  "/WePLi-Document/docs-359": {
     "__comp": "a94703ab"
   },
-  "/WePLi-Document/docs/category/tutorial---basics-5ef": {
+  "/WePLi-Document/docs/category/tech-stack-dcf": {
     "__comp": "14eb3368",
-    "__props": "13e34ed1"
+    "__props": "c45f4af9"
   },
   "/WePLi-Document/docs/category/tutorial---extras-132": {
     "__comp": "14eb3368",
     "__props": "5a389986"
   },
+  "/WePLi-Document/docs/category/tutorial---test-7e0": {
+    "__comp": "14eb3368",
+    "__props": "b154715e"
+  },
   "/WePLi-Document/docs/intro-5a4": {
     "__comp": "17896441",
     "content": "0e384e19"
+  },
+  "/WePLi-Document/docs/Tech Stack/congratulations-a44": {
+    "__comp": "17896441",
+    "content": "36c0efe7"
   },
   "/WePLi-Document/docs/tutorial-basics/congratulations-949": {
     "__comp": "17896441",

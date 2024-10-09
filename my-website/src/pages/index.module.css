@@ -50,11 +50,7 @@
 }
 
 .bannerContainer {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('/path/to/your/image.jpg') no-repeat center center;
+  background:rgba(0, 0, 0, 0.5), url(/img/bg_main_banner.jpeg) no-repeat center center;
   background-size: 100% 100%; 
   overflow: hidden;
   padding: 3rem 0;

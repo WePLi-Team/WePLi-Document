@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       // title={`${siteConfig.title}`} // 웹 페이지 탭 제목 부분
-      description="Description will go into a meta tag in <head />">
+      description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

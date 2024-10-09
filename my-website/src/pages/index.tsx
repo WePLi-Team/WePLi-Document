@@ -6,13 +6,12 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import customStyles from './styles.module.css';
 
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={`${customStyles.bannerContainer}`}>
+    <header className={`${styles.bannerContainer}`}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}

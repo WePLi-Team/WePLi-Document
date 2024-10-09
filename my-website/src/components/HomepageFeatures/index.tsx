@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
               { title: '성능', link: '/docs/intro', description: 'JMeter를 통해 서비스의 성능을 측정하고 있습니다.' }
             ].map((feature, idx) => (
               <div className="col col--4" key={idx}>
-                <div className="margin-top--xl shadow--lg">
+                <div className="margin-top--xl shadow--lg callout_VNYy">
                   <div className="card__header">
                     <h3>{feature.title}</h3>
                   </div>

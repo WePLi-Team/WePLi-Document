@@ -1,31 +1,63 @@
-name: Deploy to GitHub Pages
+# name: Deploy to GitHub Pages
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   deploy:
+#     name: Deploy to GitHub Pages
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: '20.18.0' # version setting
+#           cache: yarn
+
+#       - name: Install dependencies
+#         run: yarn install --frozen-lockfile
+
+#       - name: Build website
+#         run: yarn build
+        
+#       - name: Deploy to GitHub Pages
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.TOKEN }}
+#           publish_dir: ./build
+#           user_name: github-actions[bot]
+#           user_email: 41898282+github-actions[bot]@users.noreply.github.com
+name: Deploy Docusaurus
 
 on:
   push:
     branches:
-      - main
+      - main  # main 브랜치에 푸시될 때 작업이 실행됩니다.
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
-    runs-on: ubuntu-latest
+  build-and-deploy:
+    runs-on: ubuntu-latest  # 작업을 실행할 가상 환경
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '20.18.0' # version setting
-          cache: yarn
+    - name: Checkout code
+      uses: actions/checkout@v2  # 저장소 코드 체크아웃
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20.18.0'  # Docusaurus에 적합한 Node.js 버전을 설정하세요.
 
-      - name: Build website
-        run: yarn build
-        
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+    - name: Install dependencies
+      run: yarn install  # 필요한 의존성 설치
+
+    - name: Build
+      run: yarn build  # 사이트 빌드
+
+    - name: Deploy
+      env:
+        USE_SSH: true
+        GIT_USER: dongx0915  # GitHub 사용자 이름을 설정
+        DEPLOYMENT_BRANCH: gh-pages  # 배포할 브랜치
+      run: yarn deploy  # 사이트 배포

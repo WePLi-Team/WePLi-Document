@@ -3,6 +3,23 @@
  * and scoped locally.
  */
 
+.wepliTitle {
+  color: white;
+}
+
+.wepliSubscription {
+  background: linear-gradient(
+      0deg,
+      #9DABFF 0%,
+      #C8CFFF 39%,
+      #A4FFFF 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* 모든 브라우저 */
+  -webkit-text-fill-color: transparent; /* 웹킷 브라우저만 */
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;

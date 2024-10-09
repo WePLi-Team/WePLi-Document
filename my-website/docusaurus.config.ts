@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'WePLi',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Share Your Sound',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

@@ -13,10 +13,10 @@ function HomepageHeader() {
   return (
     <header className={`${styles.bannerContainer}`}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className={`${styles.wepliTitle}`}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={`${styles.wepliSubscription}`}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

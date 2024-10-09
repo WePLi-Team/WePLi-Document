@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
           <div className="row margin-bottom--sm">
             <div className="col col--8">
               <div>
-                <h2 className="margin-bottom--lg">STREET DROP ENGINEERING</h2>
+                <h2 className={`${styles.hero__title} margin-bottom--lg`}>STREET DROP ENGINEERING</h2>
                 <p className="margin-bottom--md">
                   스트릿 드랍을 만들어가는 백엔드 개발자들의 다양한 경험과 실제 사례를 바탕으로한 문제 해결과정을 공유합니다.
                   높은 수준의 코드 품질과 안정적인 서비스를 만들기 위해 노력하고 있습니다.

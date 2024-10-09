@@ -5,7 +5,7 @@
  */
 export default {
   "title": "WePLi",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "Share Your Sound",
   "favicon": "img/favicon.ico",
   "url": "https://wepli-test.github.io",
   "baseUrl": "/WePLi-Document/",
@@ -52,7 +52,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "WePLi",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -70,8 +70,8 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "href": "https://github.com/dongx0915/WePLi-Android",
+          "label": "Download",
           "position": "right"
         }
       ],
@@ -81,41 +81,37 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Web Site",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Document",
               "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
             {
               "label": "Blog",
               "to": "/blog"
+            }
+          ]
+        },
+        {
+          "title": "Channel",
+          "items": [
+            {
+              "label": "Instagram",
+              "href": "https://www.instagram.com/dongx._.2/"
+            }
+          ]
+        },
+        {
+          "title": "Development",
+          "items": [
+            {
+              "label": "Github-Android",
+              "href": "https://github.com/dongx0915/WePLi-Android"
             },
             {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "label": "GitHub-Server",
+              "href": "https://github.com/dongx0915/WePLi-Android"
             }
           ]
         }

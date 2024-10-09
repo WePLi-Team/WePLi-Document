@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/WePLi-Document/__docusaurus/debug',
+    component: ComponentCreator('/WePLi-Document/__docusaurus/debug', '25f'),
+    exact: true
+  },
+  {
+    path: '/WePLi-Document/__docusaurus/debug/config',
+    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/config', '472'),
+    exact: true
+  },
+  {
+    path: '/WePLi-Document/__docusaurus/debug/content',
+    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/content', '6dd'),
+    exact: true
+  },
+  {
+    path: '/WePLi-Document/__docusaurus/debug/globalData',
+    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/globalData', '44f'),
+    exact: true
+  },
+  {
+    path: '/WePLi-Document/__docusaurus/debug/metadata',
+    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/metadata', '4d8'),
+    exact: true
+  },
+  {
+    path: '/WePLi-Document/__docusaurus/debug/registry',
+    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/registry', '99f'),
+    exact: true
+  },
+  {
+    path: '/WePLi-Document/__docusaurus/debug/routes',
+    component: ComponentCreator('/WePLi-Document/__docusaurus/debug/routes', '226'),
+    exact: true
+  },
+  {
     path: '/WePLi-Document/blog',
     component: ComponentCreator('/WePLi-Document/blog', '740'),
     exact: true

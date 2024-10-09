@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Tech Stack
 
-### 1. 애플 뮤직 API ([링크](https://developer.apple.com/documentation/applemusicapi/artists))
+### 1. [Apple Music API](https://developer.apple.com/documentation/applemusicapi/artists)
 
 - **공식 가이드**
     - https://developer.apple.com/documentation/applemusicapi/generating_developer_tokens

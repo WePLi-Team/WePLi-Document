@@ -114,25 +114,19 @@ export default [
   },
   {
     path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', 'd92'),
+    component: ComponentCreator('/WePLi-Document/docs', 'abb'),
     routes: [
       {
         path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', '070'),
+        component: ComponentCreator('/WePLi-Document/docs', '582'),
         routes: [
           {
             path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', '701'),
+            component: ComponentCreator('/WePLi-Document/docs', 'fb0'),
             routes: [
               {
                 path: '/WePLi-Document/docs/category/software-requirements-specification',
                 component: ComponentCreator('/WePLi-Document/docs/category/software-requirements-specification', 'e7f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/category/tech-stack',
-                component: ComponentCreator('/WePLi-Document/docs/category/tech-stack', 'dcf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -179,8 +173,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/WePLi-Document/docs/Tech Stack/congratulations',
-                component: ComponentCreator('/WePLi-Document/docs/Tech Stack/congratulations', 'a44'),
+                path: '/WePLi-Document/docs/tech-stack',
+                component: ComponentCreator('/WePLi-Document/docs/tech-stack', 'db0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

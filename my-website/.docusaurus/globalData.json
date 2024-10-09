@@ -46,13 +46,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Tech Stack/congratulations",
-              "path": "/WePLi-Document/docs/Tech Stack/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tech-stack",
-              "path": "/WePLi-Document/docs/category/tech-stack",
+              "id": "tech-stack",
+              "path": "/WePLi-Document/docs/tech-stack",
               "sidebar": "tutorialSidebar"
             },
             {

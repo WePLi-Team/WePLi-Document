@@ -23,11 +23,11 @@ export default function Home(): JSX.Element {
           <div className="row">
             {[
               { title: '비즈니스', link: '/docs/intro', description: '유저 행동 로깅과 어드민 페이지를 통해, 사용자의 행동을 분석하고, 통계를 내며 서비스를 개선해나가고 있습니다.' },
-              { title: '모니터링', link: '/docs/intro', description: '프로메테우스 및 그라파나를 통해 서비스의 상태 모니터링과 500대 에러 Slack 알림, 슬로우 쿼리 모니터링 등을 통해서, 서비스의 안정성을 높이고 있습니다.' },
+              { title: '모니터링', link: '/docs/intro', description: 'Firebase Crashlytics를 사용하여 앱의 크래시 및 버그를 모니터하고 있습니다. 또한 사용자의 피드백을 신속하게 수집하고 대응하기 위해 Google Play Console의 리뷰를 모니터링합니다.' },
               { title: '설계', link: '/docs/intro', description: 'API 서버, Admin 서버, Batch 서버, 알림 서버 등을 분리하여, 서비스의 안정성과 확장성을 높이고 있습니다.' },
-              { title: '문서화', link: 'https://test-api.street-drop.com/swagger', description: 'Swagger를 통해 API 문서를 자동화하고 있습니다.' },
-              { title: '로그', link: '/docs/intro', description: 'ELK를 통해 서비스의 로그를 수집하고 있습니다.' },
-              { title: '성능', link: '/docs/intro', description: 'JMeter를 통해 서비스의 성능을 측정하고 있습니다.' }
+              { title: '문서화', link: '/docs/intro', description: 'Kotlin Dokka를 사용하여 코드 문서화를 자동화하고, 개발자 간의 효율적인 소통을 지원하고 있습니다.' },
+              { title: '로그', link: '/docs/intro', description: 'Android 로그 시스템을 활용하여 앱의 성능 및 사용자 이벤트를 로깅합니다. 추가적으로 ELK 스택을 통해 서버와 앱 로그를 통합 관리하고 있습니다.' },
+              { title: '성능', link: '/docs/intro', description: 'Android Profiler와 LeakCanary를 통해 앱의 메모리 사용량과 성능을 모니터링하며, 이를 기반으로 최적화 작업을 수행하고 있습니다.' }
             ].map((feature, idx) => (
               <div className="col col--4" key={idx}>
                 <div className={`margin-top--xl shadow--lg ${styles.callout}`}>
@@ -35,7 +35,7 @@ export default function Home(): JSX.Element {
                     <h3>{feature.title}</h3>
                   </div>
                   <div className="card__body">
-                    <p><Link to={feature.link} className="callout__link">{feature.description}</Link></p>
+                    <p><Link to={feature.link} className={styles.callout__link}>{feature.description}</Link></p>
                   </div>
                 </div>
               </div>

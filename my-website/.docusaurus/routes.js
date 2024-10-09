@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', 'e63'),
+    component: ComponentCreator('/WePLi-Document/docs', '37d'),
     routes: [
       {
         path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', '4fb'),
+        component: ComponentCreator('/WePLi-Document/docs', '996'),
         routes: [
           {
             path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', '41e'),
+            component: ComponentCreator('/WePLi-Document/docs', '55a'),
             routes: [
               {
                 path: '/WePLi-Document/docs/category/software-requirements-specification',
@@ -151,12 +151,6 @@ export default [
               {
                 path: '/WePLi-Document/docs/Softwrare Requirements Specification/appendices',
                 component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/appendices', '39e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/Softwrare Requirements Specification/backup/congratulations',
-                component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/backup/congratulations', 'dda'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

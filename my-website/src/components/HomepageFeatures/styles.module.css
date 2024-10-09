@@ -4328,7 +4328,7 @@ hr {
   cursor: pointer
 }
 
-.bannerContainer_m_gH_C1m7 {
+.bannerContainer_m_gH {
   background: linear-gradient(180deg,#09151600,#091516 63.02%,#072027),#08090b;
   overflow: hidden;
   padding: 3rem 0;
@@ -4336,7 +4336,7 @@ hr {
   width: 100%
 }
 
-.bannerContainer_m_gH_C1m7,.titleContainer_eFMO_mMrl {
+.bannerContainer_m_gH,.titleContainer {
   align-items: center;
   display: flex;
   justify-content: center;

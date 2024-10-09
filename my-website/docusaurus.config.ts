@@ -90,11 +90,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Web Site',
+          title: 'WebSite',
           items: [
             {
               label: 'Document',
-              to: '/docs/summary',
+              to: '/docs/intro',
             },
             {
               label: 'Blog',

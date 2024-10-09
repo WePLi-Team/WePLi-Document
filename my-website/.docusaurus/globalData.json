@@ -8,8 +8,13 @@
           "label": "Next",
           "isLast": true,
           "path": "/WePLi-Document/docs",
-          "mainDocId": "summary",
+          "mainDocId": "intro",
           "docs": [
+            {
+              "id": "intro",
+              "path": "/WePLi-Document/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "service-introduce",
               "path": "/WePLi-Document/docs/service-introduce",
@@ -41,11 +46,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "summary",
-              "path": "/WePLi-Document/docs/summary",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "tech-stack",
               "path": "/WePLi-Document/docs/tech-stack",
               "sidebar": "tutorialSidebar"
@@ -60,8 +60,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/WePLi-Document/docs/summary",
-                "label": "summary"
+                "path": "/WePLi-Document/docs/intro",
+                "label": "intro"
               }
             }
           }

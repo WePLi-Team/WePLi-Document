@@ -249,22 +249,26 @@
     },
     "content": "content---we-p-li-document-markdown-page-393-8f6"
   },
-  "/WePLi-Document/docs-0c2": {
+  "/WePLi-Document/docs-5b1": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---we-p-li-document-docsaba-9bf"
     }
   },
-  "/WePLi-Document/docs-a13": {
+  "/WePLi-Document/docs-06a": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---we-p-li-document-docs-34-c-63c"
   },
-  "/WePLi-Document/docs-1d1": {
+  "/WePLi-Document/docs-954": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs-db7": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---we-p-li-document-docs-category-소프트웨어-요구사항-명세서-srs-590-d4d"
+  },
+  "/WePLi-Document/docs/intro-5a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---we-p-li-document-docs-intro-0-e-3-ee9"
   },
   "/WePLi-Document/docs/service-introduce-672": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -289,10 +293,6 @@
   "/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements-c9f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---we-p-li-document-docs-softwrare-requirements-specification-specific-requirementsa-8-e-8e7"
-  },
-  "/WePLi-Document/docs/summary-0d9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---we-p-li-document-docs-summary-0-bc-9a8"
   },
   "/WePLi-Document/docs/tech-stack-db0": {
     "__comp": "__comp---theme-doc-item-178-a40",

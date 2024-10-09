@@ -114,19 +114,25 @@ export default [
   },
   {
     path: '/WePLi-Document/docs',
-    component: ComponentCreator('/WePLi-Document/docs', '0c2'),
+    component: ComponentCreator('/WePLi-Document/docs', '5b1'),
     routes: [
       {
         path: '/WePLi-Document/docs',
-        component: ComponentCreator('/WePLi-Document/docs', 'a13'),
+        component: ComponentCreator('/WePLi-Document/docs', '06a'),
         routes: [
           {
             path: '/WePLi-Document/docs',
-            component: ComponentCreator('/WePLi-Document/docs', '1d1'),
+            component: ComponentCreator('/WePLi-Document/docs', '954'),
             routes: [
               {
                 path: '/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs',
                 component: ComponentCreator('/WePLi-Document/docs/category/소프트웨어-요구사항-명세서-srs', 'db7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/WePLi-Document/docs/intro',
+                component: ComponentCreator('/WePLi-Document/docs/intro', '5a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -163,12 +169,6 @@ export default [
               {
                 path: '/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements',
                 component: ComponentCreator('/WePLi-Document/docs/Softwrare Requirements Specification/specific-requirements', 'c9f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/WePLi-Document/docs/summary',
-                component: ComponentCreator('/WePLi-Document/docs/summary', '0d9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

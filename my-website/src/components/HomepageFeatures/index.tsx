@@ -1,11 +1,9 @@
 import React from 'react';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 export default function Home(): JSX.Element {
   return (
-    <Layout>
       <main>
         <section className={`padding-vert--xl container ${styles.heroSection}`}>
           <div className="row margin-bottom--sm">
@@ -45,6 +43,5 @@ export default function Home(): JSX.Element {
           </div>
         </section>
       </main>
-    </Layout>
   );
 }

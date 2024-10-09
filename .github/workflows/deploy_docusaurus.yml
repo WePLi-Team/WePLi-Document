@@ -23,10 +23,6 @@ jobs:
       - name: Build website
         run: yarn build
         working-directory: my-website
-
-      - name: Reset Working Directory
-        run: yarn build
-        working-directory: /
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

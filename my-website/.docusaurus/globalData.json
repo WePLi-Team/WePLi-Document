@@ -46,8 +46,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tech-stack",
-              "path": "/docs/tech-stack",
+              "id": "기술 스택/database-scheme",
+              "path": "/docs/기술 스택/database-scheme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/tech-stack",
+              "path": "/docs/기술 스택/tech-stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/versions",
+              "path": "/docs/기술 스택/versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/기술-스택",
+              "path": "/docs/category/기술-스택",
               "sidebar": "tutorialSidebar"
             },
             {

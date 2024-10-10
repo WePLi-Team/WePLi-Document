@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Tech Stack
+# 1. API
 
 ### 1. [Apple Music API](https://developer.apple.com/documentation/applemusicapi/artists)
 

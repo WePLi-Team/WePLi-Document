@@ -1,0 +1,8 @@
+{
+  "label": "기술 스택",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "5 minutes to learn the most important Docusaurus concepts."
+  }
+}

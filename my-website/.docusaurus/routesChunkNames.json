@@ -249,18 +249,22 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-918": {
+  "/docs-ce9": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-a90": {
+  "/docs-95e": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-df2": {
+  "/docs-ca6": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/category/기술-스택-e14": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-기술-스택-8-a-2-900"
   },
   "/docs/category/소프트웨어-요구사항-명세서-srs-9bd": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -294,9 +298,17 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-softwrare-requirements-specification-specific-requirementsa-8-e-905"
   },
-  "/docs/tech-stack-b2d": {
+  "/docs/기술 스택/database-scheme-d31": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tech-stack-40-c-de2"
+    "content": "content---docs-기술-스택-database-scheme-116-8d2"
+  },
+  "/docs/기술 스택/tech-stack-70d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-tech-stack-7-c-5-39f"
+  },
+  "/docs/기술 스택/versions-be8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-versions-4-d-0-c40"
   },
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

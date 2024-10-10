@@ -114,16 +114,22 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '918'),
+    component: ComponentCreator('/docs', 'ce9'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'a90'),
+        component: ComponentCreator('/docs', '95e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'df2'),
+            component: ComponentCreator('/docs', 'ca6'),
             routes: [
+              {
+                path: '/docs/category/기술-스택',
+                component: ComponentCreator('/docs/category/기술-스택', 'e14'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/category/소프트웨어-요구사항-명세서-srs',
                 component: ComponentCreator('/docs/category/소프트웨어-요구사항-명세서-srs', '9bd'),
@@ -173,8 +179,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tech-stack',
-                component: ComponentCreator('/docs/tech-stack', 'b2d'),
+                path: '/docs/기술 스택/database-scheme',
+                component: ComponentCreator('/docs/기술 스택/database-scheme', 'd31'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/tech-stack',
+                component: ComponentCreator('/docs/기술 스택/tech-stack', '70d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/versions',
+                component: ComponentCreator('/docs/기술 스택/versions', 'be8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

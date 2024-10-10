@@ -46,13 +46,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "기술 스택/database-scheme",
-              "path": "/docs/기술 스택/database-scheme",
+              "id": "기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "기술 스택/tech-stack",
-              "path": "/docs/기술 스택/tech-stack",
+              "id": "기술 스택/API Docs/Apple Music Docs/Requests/Search-API/search_for_catalog_resources.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/search_for_catalog_resources.mdx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_a_catalog_song.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_a_catalog_song.mdx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_multiple_catalog_songs_by_id.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_multiple_catalog_songs_by_id.mdx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/API Docs/Apple Music Docs/Responses/song-response.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Responses/song-response.mdx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/API Docs/tech-stack",
+              "path": "/docs/기술 스택/API Docs/tech-stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/database-scheme",
+              "path": "/docs/기술 스택/database-scheme",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -63,6 +93,36 @@
             {
               "id": "/category/기술-스택",
               "path": "/docs/category/기술-스택",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/1-api",
+              "path": "/docs/category/1-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/2-apple-music-api-docs",
+              "path": "/docs/category/2-apple-music-api-docs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/2-1-requests",
+              "path": "/docs/category/2-1-requests",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/song",
+              "path": "/docs/category/song",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/search",
+              "path": "/docs/category/search",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/2-2-responses",
+              "path": "/docs/category/2-2-responses",
               "sidebar": "tutorialSidebar"
             },
             {

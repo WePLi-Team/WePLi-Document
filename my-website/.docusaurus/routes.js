@@ -114,16 +114,52 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ce9'),
+    component: ComponentCreator('/docs', '414'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '95e'),
+        component: ComponentCreator('/docs', '7bc'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ca6'),
+            component: ComponentCreator('/docs', '624'),
             routes: [
+              {
+                path: '/docs/category/1-api',
+                component: ComponentCreator('/docs/category/1-api', 'dfd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/2-1-requests',
+                component: ComponentCreator('/docs/category/2-1-requests', '59a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/2-2-responses',
+                component: ComponentCreator('/docs/category/2-2-responses', '857'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/2-apple-music-api-docs',
+                component: ComponentCreator('/docs/category/2-apple-music-api-docs', '808'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/search',
+                component: ComponentCreator('/docs/category/search', '30d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/song',
+                component: ComponentCreator('/docs/category/song', '9bc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/category/기술-스택',
                 component: ComponentCreator('/docs/category/기술-스택', 'e14'),
@@ -179,14 +215,50 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/기술 스택/database-scheme',
-                component: ComponentCreator('/docs/기술 스택/database-scheme', 'd31'),
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx', 'a3d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/기술 스택/tech-stack',
-                component: ComponentCreator('/docs/기술 스택/tech-stack', '70d'),
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/search_for_catalog_resources.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/search_for_catalog_resources.mdx', '20f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_a_catalog_song.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_a_catalog_song.mdx', '669'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_multiple_catalog_songs_by_id.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_multiple_catalog_songs_by_id.mdx', '120'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx', 'a3f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Responses/song-response.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Responses/song-response.mdx', '8c7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/API Docs/tech-stack',
+                component: ComponentCreator('/docs/기술 스택/API Docs/tech-stack', 'd9b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/database-scheme',
+                component: ComponentCreator('/docs/기술 스택/database-scheme', 'd31'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

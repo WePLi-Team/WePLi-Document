@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 1. API
+# 1. Info
 
 ### 1. [Apple Music API](https://developer.apple.com/documentation/applemusicapi/artists)
 

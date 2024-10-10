@@ -249,18 +249,42 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-ce9": {
+  "/docs-414": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-95e": {
+  "/docs-7bc": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-ca6": {
+  "/docs-624": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/category/1-api-dfd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-1-apif-30-a45"
+  },
+  "/docs/category/2-1-requests-59a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-2-1-requests-3-bd-b42"
+  },
+  "/docs/category/2-2-responses-857": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-2-2-responses-689-a99"
+  },
+  "/docs/category/2-apple-music-api-docs-808": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-2-apple-music-api-docs-11-c-704"
+  },
+  "/docs/category/search-30d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-searchc-51-5a6"
+  },
+  "/docs/category/song-9bc": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-song-937-c61"
   },
   "/docs/category/기술-스택-e14": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -298,13 +322,37 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-softwrare-requirements-specification-specific-requirementsa-8-e-905"
   },
+  "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx-a3d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-api-docs-apple-music-docs-requests-search-api-get-catalog-search-suggestions-mdxeea-330"
+  },
+  "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/search_for_catalog_resources.mdx-20f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-api-docs-apple-music-docs-requests-search-api-search-for-catalog-resources-mdxae-2-b5e"
+  },
+  "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_a_catalog_song.mdx-669": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-api-docs-apple-music-docs-requests-song-api-get-a-catalog-song-mdxcd-9-768"
+  },
+  "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Song-API/get_multiple_catalog_songs_by_id.mdx-120": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-api-docs-apple-music-docs-requests-song-api-get-multiple-catalog-songs-by-id-mdx-852-a8c"
+  },
+  "/docs/기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx-a3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-api-docs-apple-music-docs-responses-artist-response-mdx-922-7a1"
+  },
+  "/docs/기술 스택/API Docs/Apple Music Docs/Responses/song-response.mdx-8c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-api-docs-apple-music-docs-responses-song-response-mdxeec-2f4"
+  },
+  "/docs/기술 스택/API Docs/tech-stack-d9b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-기술-스택-api-docs-tech-stack-912-a83"
+  },
   "/docs/기술 스택/database-scheme-d31": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-기술-스택-database-scheme-116-8d2"
-  },
-  "/docs/기술 스택/tech-stack-70d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-기술-스택-tech-stack-7-c-5-39f"
   },
   "/docs/기술 스택/versions-be8": {
     "__comp": "__comp---theme-doc-item-178-a40",

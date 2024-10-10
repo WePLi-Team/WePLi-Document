@@ -14,5 +14,10 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "서비스 소개",
+    "permalink": "/docs/service-introduce"
   }
 }

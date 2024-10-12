@@ -6,15 +6,62 @@ sidebar_position: 1
 
 `Song` 객체는 Apple Music API에서 곡에 대한 정보를 제공합니다. 다음은 Song 객체의 속성과 그 설명입니다.
 
+:::note
+WePLi 개발에 필요한 속성만 추출한 문서입니다.
+자세한 내용은 Apple Music 공식 문서를 참고해주세요.
+:::
+
+<details>
+  <summary>**전체 코드**</summary>
+  ```kotlin
+data class Song(
+    val id: String,
+    val type: String,
+    val href: String,
+    val attributes: Attributes,
+) {
+    data class Attributes(
+        val name: String,
+        val albumName: String,
+        val artistName: String,
+        val hasLyrics: Boolean,
+        val durationInMillis: Int,
+        val genreNames: List<String>,
+        val url: String,
+        val playParams: PlayParams,
+        val previews: List<Preview>,
+        val releaseDate: String,
+        val trackNumber: Int,
+        val artwork: Artwork,
+
+        /* 필요 없을 것 같은 값들 */
+        val composerName: String,
+        val discNumber: Int,
+        val isAppleDigitalMaster: Boolean,
+        val isrc: String,
+    ) {
+        data class Preview(
+            val url: String
+        )
+
+        data class PlayParams(
+            val id: String,
+            val kind: String
+        )
+    }
+}
+  ```
+</details>
+
 ## Song
 
-```json
-{
-  "id": "1234567890",
-  "type": "songs",
-  "href": "/v1/catalog/us/songs/1234567890",
-  "attributes": { ... }
-}
+```kotlin
+data class Song(
+    val id: String,
+    val type: String,
+    val href: String,
+    val attributes: Attributes,
+)
 ```
 
 ### 속성
@@ -30,51 +77,27 @@ sidebar_position: 1
 
 `Attributes` 객체는 곡의 메타데이터를 포함합니다.
 
-```json
-{
-  "albumName": "Reputation",
-  "artistName": "Taylor Swift",
-  "artistUrl": "https://music.apple.com/us/artist/taylor-swift/159260351",
-  "artwork": {
-    "width": 1200,
-    "height": 1200,
-    "url": "https://example.com/{w}x{h}bb.jpeg",
-    "bgColor": "f0f0f0",
-    "textColor1": "000000",
-    "textColor2": "ffffff"
-  },
-  "attribution": "Taylor Swift",
-  "audioVariants": ["dolby-atmos", "lossless"],
-  "composerName": "Taylor Swift",
-  "contentRating": "explicit",
-  "discNumber": 1,
-  "durationInMillis": 231000,
-  "editorialNotes": {
-    "short": "A standout track from Taylor's 'Reputation'.",
-    "standard": "This track is a part of the critically acclaimed 'Reputation' album."
-  },
-  "genreNames": ["Pop"],
-  "hasLyrics": true,
-  "isAppleDigitalMaster": true,
-  "isrc": "USUM71703089",
-  "movementCount": 0,
-  "movementName": null,
-  "movementNumber": 0,
-  "name": "Delicate",
-  "playParams": {
-    "id": "1440761880",
-    "kind": "song"
-  },
-  "previews": [
-    {
-      "url": "https://example.com/preview.m4a"
-    }
-  ],
-  "releaseDate": "2017-11-10",
-  "trackNumber": 5,
-  "url": "https://music.apple.com/us/album/1440761880?i=1440761880",
-  "workName": null
-}
+```kotlin
+data class Attributes(
+    val name: String, // 노래 제목
+    val albumName: String, // 앨범 이름
+    val artistName: String, // 가수 이름
+    val hasLyrics: Boolean, // 가사 여부
+    val durationInMillis: Int, // 노래 재생 시간
+    val genreNames: List<String>, // 장르
+    val url: String, // 노래 페이지 URL
+    val playParams: PlayParams, // 플레이 파라미터 (노래 재생에 사용, 미리듣기 - 사용 가능, 풀버전 - 애플 뮤직 구독 필요)
+    val previews: List<Preview>, // 미리듣기 m4a 파일 url
+    val releaseDate: String, // 출시일
+    val trackNumber: Int, // 앨범 내에서의 트랙 순서
+    val artwork: Artwork, // 노래 이미지 정보
+
+    /* 필요 없을 것 같은 값들 */
+    val composerName: String, // 작곡가 이름
+    val discNumber: Int, // 디스크 번호
+    val isAppleDigitalMaster: Boolean, // Apple Digital Master 여부
+    val isrc: String, // 국제 표준 레코딩 코드 (ISRC)
+)
 ```
 
 ### 속성
@@ -162,17 +185,19 @@ sidebar_position: 1
 
 ## Artwork
 
-`Artwork` 객체는 앨범 커버 이미지의 정보를 포함합니다.
+`Artwork` 객체는 커버 이미지의 정보를 포함합니다. (앨범 커버, 가수 이미지 등)
 
-```json
-{
-  "width": 1200,
-  "height": 1200,
-  "url": "https://example.com/album_artwork.png",
-  "bgColor": "f0f0f0",
-  "textColor1": "000000",
-  "textColor2": "ffffff"
-}
+```kotlin
+data class Artwork(
+    val bgColor: String, // 이미지의 평균 배경색 (주요 색상)
+    val width: Int, // 이미지 너비
+    val height: Int, // 이미지 높이
+    val textColor1: String, // 배경색이 표시되는 경우 사용되는 기본 텍스트 색상
+    val textColor2: String, // 배경색이 표시되는 경우 사용되는 보조 텍스트 색상
+    val textColor3: String, // 배경색이 표시되는 경우 사용되는 세 번째 텍스트 색상
+    val textColor4: String, // 배경색이 표시되는 경우 최종 텍스트
+    val url: String, // 이미지 url ({w}x{h} 부분에 width, height 대입)
+)
 ```
 
 ### 속성
@@ -188,13 +213,14 @@ sidebar_position: 1
 
 ## PlayParams
 
-`PlayParams` 객체는 곡 재생을 위한 파라미터를 포함합니다.
+`PlayParams` 객체는 곡 재생을 위한 파라미터를 포함합니다.  
+Apple Music과 매핑되는 값입니다.
 
-```json
-{
-  "id": "1234567890",
-  "kind": "song"
-}
+```kotlin
+data class PlayParams(
+    val id: String,
+    val kind: String
+)
 ```
 
 ### 속성
@@ -206,12 +232,12 @@ sidebar_position: 1
 
 ## Previews
 
-`Previews` 객체는 곡의 미리 듣기 정보입니다.
+`Previews` 객체는 미리듣기 m4a 파일의 url을 포함합니다
 
-```json
-{
-  "url": "https://example.com/preview.m4a"
-}
+```kotlin
+data class Preview(
+    val url: String // https://example.com/preview.m4a
+)
 ```
 
 ### 속성

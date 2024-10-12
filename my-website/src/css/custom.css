@@ -29,6 +29,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 @font-face {
   font-family: 'Apple SD Gothic Neo';
   font-weight: 100;
@@ -117,4 +119,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, blockquote, span {
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white)
+}
+
+span .token {
+  font-family: 'JetBrains Mono', monospace;
 }

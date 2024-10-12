@@ -66,8 +66,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "기술 스택/API Docs/Apple Music Docs/Responses/album-response.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Responses/album-response.mdx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx",
               "path": "/docs/기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "기술 스택/API Docs/Apple Music Docs/Responses/search-response.mdx",
+              "path": "/docs/기술 스택/API Docs/Apple Music Docs/Responses/search-response.mdx",
               "sidebar": "tutorialSidebar"
             },
             {

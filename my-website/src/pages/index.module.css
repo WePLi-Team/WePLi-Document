@@ -9,15 +9,15 @@
 
 .wepliSubscription {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 130%;
   margin-bottom: 1rem;
 
   background: linear-gradient(
     0deg, 
     #9DABFF 0%, 
-    #C8CFFF 20%, 
-    #A4FFFF 100%
+    #C8CFFF 30%, 
+    #A4FFFF 70%
   );
   /* background: linear-gradient(0deg, #9DABFF 0%, #C8CFFF 39%,#A4FFFF 100%); */
   -webkit-background-clip: text;

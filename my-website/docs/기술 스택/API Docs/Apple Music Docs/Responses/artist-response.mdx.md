@@ -6,17 +6,40 @@ sidebar_position: 2
 
 `Artist` 객체는 Apple Music API에서 아티스트에 대한 정보를 제공합니다. 다음은 Artist 객체의 속성과 그 설명입니다.
 
+:::note
+WePLi 개발에 필요한 속성만 추출한 문서입니다.
+자세한 내용은 Apple Music 공식 문서를 참고해주세요.
+:::
+
+<details>
+  <summary>**전체 코드**</summary>
+  ```kotlin
+data class Artist(
+    val id: String,
+    val type: String,
+    val href: String,
+    val attributes: Attributes,
+) {
+    data class Attributes(
+        val name: String,
+        val url: String,
+        val genreNames: List<String>,
+        val artwork: Artwork
+    )
+}
+  ```
+</details>
+
+
 ## Artist
 
-```json
-{
-  "id": "1234567890",
-  "type": "artists",
-  "href": "/v1/catalog/us/artists/1234567890",
-  "attributes": { ... },
-  "relationships": { ... },
-  "views": { ... }
-}
+```kotlin
+data class Artist(
+    val id: String,
+    val type: String,
+    val href: String,
+    val attributes: Attributes,
+)
 ```
 
 ### 속성
@@ -45,14 +68,13 @@ sidebar_position: 2
 
 `Attributes` 객체는 아티스트에 대한 메타데이터를 포함합니다.
 
-```json
-{
-  "name": "Artist Name",
-  "genreNames": ["Pop", "Rock"],
-  "url": "https://music.apple.com/us/artist/1234567890",
-  "artwork": { ... },
-  "editorialNotes": { ... }
-}
+```kotlin
+data class Attributes(
+    val name: String, // 아티스트 이름
+    val url: String, // 아티스트 url
+    val genreNames: List<String>, // 장르
+    val artwork: Artwork // 커버 이미지 정보
+)
 ```
 
 ### 속성
@@ -76,20 +98,21 @@ sidebar_position: 2
 
 ## Artwork
 
-`Artwork` 객체는 아트워크(이미지)에 대한 정보를 나타냅니다.
+`Artwork` 객체는 커버 이미지의 정보를 포함합니다. (앨범 커버, 가수 이미지 등)
 
-```json
-{
-  "bgColor": "f0f0f0",
-  "height": 1200,
-  "width": 1200,
-  "textColor1": "000000",
-  "textColor2": "ffffff",
-  "textColor3": "aaaaaa",
-  "textColor4": "cccccc",
-  "url": "https://example.com/{w}x{h}bb.jpeg"
-}
+```kotlin
+data class Artwork(
+    val bgColor: String, // 이미지의 평균 배경색 (주요 색상)
+    val width: Int, // 이미지 너비
+    val height: Int, // 이미지 높이
+    val textColor1: String, // 배경색이 표시되는 경우 사용되는 기본 텍스트 색상
+    val textColor2: String, // 배경색이 표시되는 경우 사용되는 보조 텍스트 색상
+    val textColor3: String, // 배경색이 표시되는 경우 사용되는 세 번째 텍스트 색상
+    val textColor4: String, // 배경색이 표시되는 경우 최종 텍스트
+    val url: String, // 이미지 url ({w}x{h} 부분에 width, height 대입)
+)
 ```
+
 
 ### 속성
 

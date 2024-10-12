@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '414'),
+    component: ComponentCreator('/docs', '758'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7bc'),
+        component: ComponentCreator('/docs', '03f'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '624'),
+            component: ComponentCreator('/docs', '10e'),
             routes: [
               {
                 path: '/docs/category/1-api',
@@ -239,8 +239,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Responses/album-response.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Responses/album-response.mdx', '2fa'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx',
                 component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Responses/artist-response.mdx', 'a3f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/기술 스택/API Docs/Apple Music Docs/Responses/search-response.mdx',
+                component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Responses/search-response.mdx', '4b0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

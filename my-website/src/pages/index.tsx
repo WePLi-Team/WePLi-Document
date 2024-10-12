@@ -17,9 +17,10 @@ function HomepageHeader() {
 
       {/* Text content container */}
       <div className="container" style={{ position: 'relative', zIndex: 10 }}>
-        <Heading as="h1" className={styles.wepliTitle}>
-          {siteConfig.title}
-        </Heading>
+        {/* <Heading as="h1" className={styles.wepliTitle}>
+          { siteConfig.title }
+        </Heading> */}
+        <img src='img/img_logo_small.png' style={{ width: '52px'}}></img>
         <p className={styles.wepliSubscription}>{siteConfig.tagline}</p>
         <h2 className={styles.mainTitle}>혼자만의 감상에서 벗어나</h2>
         <h2 className={styles.mainTitle}>함께 만들어가는 음악 여정에 참여하세요</h2>

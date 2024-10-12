@@ -113,7 +113,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, blockquote, span {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #17222D;
+  --ifm-footer-background-color: #191d21;
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white)

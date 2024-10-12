@@ -16,8 +16,8 @@
   background: linear-gradient(
     0deg, 
     #9DABFF 0%, 
-    #C8CFFF 39%, 
-    #00ffff 100%
+    #C8CFFF 20%, 
+    #A4FFFF 100%
   );
   /* background: linear-gradient(0deg, #9DABFF 0%, #C8CFFF 39%,#A4FFFF 100%); */
   -webkit-background-clip: text;

@@ -8,17 +8,18 @@
 }
 
 .wepliSubscription {
-  font-size: .9rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 130%;
   margin-bottom: 1rem;
 
   background: linear-gradient(
-      0deg,
-      #9DABFF 0%,
-      #C8CFFF 39%,
-      #A4FFFF 100%
+    0deg, 
+    #9DABFF 0%, 
+    #C8CFFF 39%, 
+    #00ffff 100%
   );
+  /* background: linear-gradient(0deg, #9DABFF 0%, #C8CFFF 39%,#A4FFFF 100%); */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; /* 모든 브라우저 */
@@ -52,7 +53,8 @@
 .bannerContainer {
   position: relative;
   overflow: hidden;
-  background: url(/img/bg_main_banner_linear.png) no-repeat center center;
+  background: linear-gradient(180deg, #000000, #91f8ff68 63%, #000000b5), #6f9dff;
+  /* background: url(/img/bg_main_banner_linear.png) no-repeat center center; */
   background-size: 100% 100%;
   padding: 3rem 0;
   width: 100%;

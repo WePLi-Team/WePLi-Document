@@ -29,8 +29,12 @@ function HomepageHeader() {
         </p>
 
         <div className="flex w-full flex-col items-center justify-center gap-2 sm:flex-row sm:gap-4">
-          <RainbowButtonDark className='bg-black rainbow-button text-sm'>Explore Our Docs</RainbowButtonDark>
-          <RainbowButtonLight className='bg-black rainbow-button text-sm'>Discover More</RainbowButtonLight>
+          <Link to="/docs/intro" className="w-full sm:w-auto">
+            <RainbowButtonDark className='bg-black rainbow-button text-sm'>Explore Our Docs</RainbowButtonDark>
+          </Link>
+          <Link to="/blog" className="w-full sm:w-auto">
+            <RainbowButtonLight className='bg-black rainbow-button text-sm'>Discover More</RainbowButtonLight>
+          </Link>
         </div>
       </div>
     </header>

@@ -6,20 +6,6 @@ export default function Home(): JSX.Element {
   return (
       <main>
         <section className={`padding-vert--xl container ${styles.heroSection}`}>
-          <div className="row margin-bottom--sm">
-            <div className="col col--8">
-              <div>
-                <h2 className={`${styles.hero__title} margin-bottom--lg`}>WEPLI ENGINEERING</h2>
-                <p className={`margin-bottom--md ${styles.hero__text}`}>
-                  위플리를 만들어가는 저희의 다양한 경험과 실제 사례를 바탕으로한 문제 해결과정을 공유합니다.
-                  높은 수준의 코드 품질과 안정적인 서비스를 만들기 위해 노력하고 있습니다.
-                </p>
-                <p className={`margin-bottom--sm ${styles.hero__text}`}>
-                  비즈니스, 모니터링, 설계, 문서화, 로그, 성능 등 다양한 주제를 다루고 있습니다.
-                </p>
-              </div>
-            </div>
-          </div>
           <div className="row">
             {[
               { title: '비즈니스', link: '/docs/intro', description: '사용자의 상호작용을 로깅하고 분석하여 플레이리스트 생성 및 공유 기능을 최적화합니다. 사용자 데이터를 기반으로 통계를 내고 개인화된 추천을 제공하여 서비스를 개선해 나가고 있습니다.' },

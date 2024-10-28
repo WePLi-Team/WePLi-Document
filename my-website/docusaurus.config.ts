@@ -82,6 +82,9 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      disableSwitch: true // 다크 모드 스위치 비활성화
+    },
     navbar: {
       title: 'WePLi',
       logo: {

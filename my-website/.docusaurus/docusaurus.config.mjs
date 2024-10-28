@@ -54,6 +54,11 @@ export default {
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
+    "colorMode": {
+      "disableSwitch": true,
+      "defaultMode": "light",
+      "respectPrefersColorScheme": false
+    },
     "navbar": {
       "title": "WePLi",
       "logo": {
@@ -404,11 +409,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",

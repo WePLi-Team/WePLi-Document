@@ -21,9 +21,10 @@ function HomepageHeader() {
           { siteConfig.title }
         </Heading> */}
         <img src='img/img_logo_small.png' style={{ width: '52px'}}></img>
-        <p className={styles.wepliSubscription}>{siteConfig.tagline}</p>
-        <h2 className={styles.mainTitle}>혼자만의 감상에서 벗어나</h2>
-        <h2 className={styles.mainTitle}>함께 만들어가는 음악 여정에 참여하세요</h2>
+        <h2 className={styles.mainTitle}>Share Your Sound,<br/>
+        Unite in Harmony</h2>
+        <p>위플리를 만들어가는 저희의 다양한 경험과 실제 사례를 바탕으로한 문제 해결과정을 공유합니다.<br/>
+        높은 수준의 코드 품질과 안정적인 서비스를 만들기 위해 노력하고 있습니다.</p>
       </div>
     </header>
   );

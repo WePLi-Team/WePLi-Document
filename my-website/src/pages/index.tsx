@@ -20,7 +20,7 @@ function HomepageHeader() {
         {/* <Heading as="h1" className={styles.wepliTitle}>
           { siteConfig.title }
         </Heading> */}
-        <img src='img/img_logo_small.png' style={{ width: '52px'}}></img>
+        <img src='img/img_logo_small.png' style={{ width: '52px', margin: 'auto'}}></img>
         <h2 className={styles.mainTitle}>Share Your Sound,<br/>
         Unite in Harmony</h2>
         <p>위플리를 만들어가는 저희의 다양한 경험과 실제 사례를 바탕으로한 문제 해결과정을 공유합니다.<br/>

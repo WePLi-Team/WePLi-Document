@@ -16,19 +16,21 @@ function HomepageHeader() {
       <div className={styles.backgroundOverlay}></div>
 
       {/* Text content container */}
-      <div className="container" style={{ position: 'relative', zIndex: 10 }}>
+      <div className="container flex flex-col items-center gap-6" style={{ position: 'relative', zIndex: 10 }}>
         {/* <Heading as="h1" className={styles.wepliTitle}>
           { siteConfig.title }
         </Heading> */}
         <img src='img/img_logo_small.png' style={{ width: '52px', margin: 'auto'}}></img>
         <h2 className={styles.mainTitle}>Share Your Sound,<br/>
         Unite in Harmony</h2>
-        <p>위플리를 만들어가는 저희의 다양한 경험과 실제 사례를 바탕으로한 문제 해결과정을 공유합니다.<br/>
-        높은 수준의 코드 품질과 안정적인 서비스를 만들기 위해 노력하고 있습니다.</p>
+        <p>
+          위플리를 만들어가는 저희의 다양한 경험과 실제 사례를 바탕으로한 문제 해결과정을 공유합니다.<br />
+          높은 수준의 코드 품질과 안정적인 서비스를 만들기 위해 노력하고 있습니다.
+        </p>
 
         <div className="flex w-full flex-col items-center justify-center gap-2 sm:flex-row sm:gap-4">
-          <RainbowButtonDark className='bg-black rainbow-button text-sm'>Get Unlimited Access</RainbowButtonDark>
-          <RainbowButtonLight className='bg-black rainbow-button text-sm'>Get Unlimited Access</RainbowButtonLight>
+          <RainbowButtonDark className='bg-black rainbow-button text-sm'>Explore Our Docs</RainbowButtonDark>
+          <RainbowButtonLight className='bg-black rainbow-button text-sm'>Discover More</RainbowButtonLight>
         </div>
       </div>
     </header>

@@ -88,3 +88,8 @@
   justify-content: center;
   text-align: center
 }
+
+.rainbow-button {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}

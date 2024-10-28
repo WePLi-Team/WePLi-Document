@@ -127,3 +127,9 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, blockquote, span {
 span .token {
   font-family: 'JetBrains Mono', monospace;
 }
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.4); /* 투명 배경 */
+  backdrop-filter: blur(16px); /* 블러 효과 */
+  -webkit-backdrop-filter: blur(16px); /* Safari 지원 */
+}

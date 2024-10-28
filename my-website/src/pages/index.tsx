@@ -24,8 +24,8 @@ function HomepageHeader() {
         <h2 className={styles.mainTitle}>Share Your Sound,<br/>
         Unite in Harmony</h2>
         <p>
-          위플리를 만들어가는 저희의 다양한 경험과 실제 사례를 바탕으로한 문제 해결과정을 공유합니다.<br />
-          높은 수준의 코드 품질과 안정적인 서비스를 만들기 위해 노력하고 있습니다.
+          위플리를 만들어가는 저희의 다양한 경험과 <b>실제 사례</b>를 바탕으로한 <b>문제 해결과정</b>을 공유합니다.<br />
+          <b>높은 수준의 코드 품질</b>과 <b>안정적인 서비스</b>를 만들기 위해 노력하고 있습니다.
         </p>
 
         <div className="flex w-full flex-col items-center justify-center gap-2 sm:flex-row sm:gap-4">

@@ -212,7 +212,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, blockquote, span {
 }
 
 .footer__link-item {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 

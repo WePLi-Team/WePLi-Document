@@ -4,7 +4,7 @@ const posts = [
         title: '친구들이랑 음악 같이 찾아요!',
         href: '#',
         description:
-            '위플리 덕분에 새로운 음악을 찾는 재미가 생겼어요! 친구들이 어떤 음악을 듣는지 볼 수 있고, 같이 플레이리스트도 만들 수 있어서 요즘 너무 즐거워요!',
+            '위플리 덕분에 요즘 새로운 음악 찾는 게 너무 재밌어요! 친구들이랑 같이 플레이리스트 만들고 서로 곡 추천하면서 취향도 알아가고 있어요. 심심할 때 딱이에요!',
         date: '2024-10-10',
         datetime: '2024-10-10',
         category: { title: '음악 발견', href: '#' },
@@ -13,7 +13,7 @@ const posts = [
             role: '음악 애호가',
             href: '#',
             imageUrl:
-                'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7z5273iRgrTefT_4s-WQCtfNiQ9tmDwTDSERYMB72rviyPdWGl3SDAxhi-6OXVBsnPfI&usqp=CAU',
         },
     },
     {
@@ -21,33 +21,33 @@ const posts = [
         title: '취향 공유하며 더 친해졌어요!',
         href: '#',
         description:
-            '위플리 덕분에 친구들과 플레이리스트를 같이 만들면서 서로의 음악 취향을 더 잘 알게 되었어요. 친구들이 좋아하는 곡들에 내 취향도 추가할 수 있어서 너무 재미있어요!',
+            '위플리로 친구들이랑 노래 공유하면서 서로 더 친해진 느낌이에요. 평소에 몰랐던 친구들 취향도 알게 되고, 나만의 플레이리스트도 더 풍성해져서 진짜 좋아요!',
         date: '2024-10-15',
         datetime: '2024-10-15',
         category: { title: '소통과 취향 공유', href: '#' },
         author: {
-            name: '김지훈',
+            name: '박보영',
             role: '음악 팬',
             href: '#',
             imageUrl:
-                'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaqcveC-mD_rmmn81JOa2kxLeW0ieNruL5CnhRTaY3MqquVJ9-gINKVTGVlTE4t7WdgcU&usqp=CAU',
         },
     },
     {
         id: 3,
-        title: 'Boost your conversion rate',
+        title: '진짜 편해요!',
         href: '#',
         description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
+            '음악 앱 여러 개 쓰기 귀찮았는데, 위플리 하나로 친구들이랑 같이 들을 곡도 찾고 플레이리스트도 공유할 수 있어서 너무 편해요. 이제 다른 앱 필요 없을 듯!',
+        date: '2024-10-20',
+        datetime: '2024-10-20',
+        category: { title: '소통과 취향 공유', href: '#' },
         author: {
-            name: 'Michael Foster',
-            role: 'Co-Founder / CTO',
+            name: '박소영',
+            role: '음악 큐레이터',
             href: '#',
             imageUrl:
-                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                'https://png.pngtree.com/thumb_back/fh260/background/20230609/pngtree-young-smiling-korean-woman-with-black-color-and-black-hair-and-image_2947345.jpg',
         },
     },
     // More posts...

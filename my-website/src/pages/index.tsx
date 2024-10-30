@@ -8,6 +8,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import StatsLayout from '../components/Stats';
 import ReviewSection from '../components/Reviews';
+import AppDownloadSection from '../components/AppDownloads';
 
 import { RainbowButtonLight, RainbowButtonDark } from "../components/RainbowButton";
 import Example from '../components/Stats';
@@ -57,6 +58,7 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
         <ReviewSection />
+        {/* <AppDownloadSection /> */}
       </main>
     </Layout>
   );

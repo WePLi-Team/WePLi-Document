@@ -6,7 +6,11 @@ import styles from './index.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import StatsLayout from '../components/Stats';
+import ReviewSection from '../components/Reviews';
+
 import { RainbowButtonLight, RainbowButtonDark } from "../components/RainbowButton";
+import Example from '../components/Stats';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -52,6 +56,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <ReviewSection />
       </main>
     </Layout>
   );

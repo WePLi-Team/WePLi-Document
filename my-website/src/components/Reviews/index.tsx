@@ -10,7 +10,7 @@ const posts = [
         category: { title: '음악 발견', href: '#' },
         author: {
             name: '제인 도',
-            role: '음악 애호가',
+            role: '디자이너',
             href: '#',
             imageUrl:
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7z5273iRgrTefT_4s-WQCtfNiQ9tmDwTDSERYMB72rviyPdWGl3SDAxhi-6OXVBsnPfI&usqp=CAU',
@@ -27,7 +27,7 @@ const posts = [
         category: { title: '소통과 취향 공유', href: '#' },
         author: {
             name: '박보영',
-            role: '음악 팬',
+            role: '배우',
             href: '#',
             imageUrl:
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaqcveC-mD_rmmn81JOa2kxLeW0ieNruL5CnhRTaY3MqquVJ9-gINKVTGVlTE4t7WdgcU&usqp=CAU',

@@ -1,17 +1,16 @@
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import StatsLayout from '../components/Stats';
+import HomepageFeatures from '../components/HomepageFeatures';
 import ReviewSection from '../components/Reviews';
+import StatsLayout from '../components/Stats';
 import AppDownloadSection from '../components/AppDownloads';
 
 import { RainbowButtonLight, RainbowButtonDark } from "../components/RainbowButton";
-import Example from '../components/Stats';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();

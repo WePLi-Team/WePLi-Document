@@ -104,7 +104,23 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
   },
-  "/blog/authors/yangshun-a68": {
+  "/blog/authors/donghyeon-d72": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-donghyeone-3-e-61f"
+  },
+  "/blog/authors/yangshun-f79": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -118,9 +134,6 @@
       },
       {
         "content": "content---blog-871-381"
-      },
-      {
-        "content": "content---blog-925-e00"
       }
     ],
     "sidebar": "sidebar---blog-814-8ac",

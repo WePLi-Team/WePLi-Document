@@ -58,8 +58,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/authors/donghyeon',
+    component: ComponentCreator('/blog/authors/donghyeon', 'd72'),
+    exact: true
+  },
+  {
     path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    component: ComponentCreator('/blog/authors/yangshun', 'f79'),
     exact: true
   },
   {

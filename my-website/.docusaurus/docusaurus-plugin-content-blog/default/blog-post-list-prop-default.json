@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "WePLi를 개발하게 된 이유",
+      "permalink": "/blog/WePLi를 개발하게 된 이유",
+      "unlisted": false,
+      "date": "2024-12-28T00:00:00.000Z"
+    },
+    {
       "title": "Welcome",
       "permalink": "/blog/welcome",
       "unlisted": false,
@@ -18,12 +24,6 @@
       "permalink": "/blog/long-blog-post",
       "unlisted": false,
       "date": "2019-05-29T00:00:00.000Z"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post",
-      "unlisted": false,
-      "date": "2019-05-28T00:00:00.000Z"
     }
   ]
 }

@@ -73,6 +73,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "WePLi를 개발하게 된 이유",
+    "permalink": "/blog/WePLi를 개발하게 된 이유"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"

@@ -23,22 +23,6 @@
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus maintainer",
-      "url": "https://sebastienlorber.com",
-      "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
-      },
-      "socials": {
-        "x": "https://x.com/sebastienlorber",
-        "linkedin": "https://www.linkedin.com/in/sebastienlorber/",
-        "github": "https://github.com/slorber",
-        "newsletter": "https://thisweekinreact.com"
-      },
-      "imageURL": "https://github.com/slorber.png",
-      "key": "slorber"
-    },
-    {
       "name": "Donghyeon Kim",
       "title": "Android Developer @Cashwalk",
       "url": "https://github.com/dongx0915",
@@ -57,7 +41,6 @@
     "slug": "first-blog-post",
     "title": "First Blog Post",
     "authors": [
-      "slorber",
       "donghyeon"
     ],
     "tags": [

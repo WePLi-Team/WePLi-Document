@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    component: ComponentCreator('/blog', 'f41'),
     exact: true
   },
   {
@@ -54,22 +54,17 @@ export default [
   },
   {
     path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '5be'),
     exact: true
   },
   {
     path: '/blog/authors/donghyeon',
-    component: ComponentCreator('/blog/authors/donghyeon', 'd72'),
+    component: ComponentCreator('/blog/authors/donghyeon', '037'),
     exact: true
   },
   {
     path: '/blog/authors/yangshun',
     component: ComponentCreator('/blog/authors/yangshun', 'f79'),
-    exact: true
-  },
-  {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
@@ -89,7 +84,7 @@ export default [
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
+    component: ComponentCreator('/blog/tags/docusaurus', 'b5c'),
     exact: true
   },
   {
@@ -103,13 +98,23 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
+    path: '/blog/tags/music-app',
+    component: ComponentCreator('/blog/tags/music-app', '5b8'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/we-p-li',
+    component: ComponentCreator('/blog/tags/we-p-li', '191'),
     exact: true
   },
   {
     path: '/blog/welcome',
     component: ComponentCreator('/blog/welcome', 'd2b'),
+    exact: true
+  },
+  {
+    path: '/blog/WePLi를 개발하게 된 이유',
+    component: ComponentCreator('/blog/WePLi를 개발하게 된 이유', 'ef8'),
     exact: true
   },
   {

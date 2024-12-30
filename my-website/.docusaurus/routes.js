@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'f41'),
+    component: ComponentCreator('/blog', '0b0'),
     exact: true
   },
   {
@@ -59,7 +59,7 @@ export default [
   },
   {
     path: '/blog/authors/donghyeon',
-    component: ComponentCreator('/blog/authors/donghyeon', '037'),
+    component: ComponentCreator('/blog/authors/donghyeon', 'b05'),
     exact: true
   },
   {
@@ -99,12 +99,12 @@ export default [
   },
   {
     path: '/blog/tags/music-app',
-    component: ComponentCreator('/blog/tags/music-app', '5b8'),
+    component: ComponentCreator('/blog/tags/music-app', '8e3'),
     exact: true
   },
   {
     path: '/blog/tags/we-p-li',
-    component: ComponentCreator('/blog/tags/we-p-li', '191'),
+    component: ComponentCreator('/blog/tags/we-p-li', '7e7'),
     exact: true
   },
   {
@@ -114,7 +114,7 @@ export default [
   },
   {
     path: '/blog/WePLi를 개발하게 된 이유',
-    component: ComponentCreator('/blog/WePLi를 개발하게 된 이유', 'ef8'),
+    component: ComponentCreator('/blog/WePLi를 개발하게 된 이유', 'c33'),
     exact: true
   },
   {

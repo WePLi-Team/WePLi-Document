@@ -13,35 +13,32 @@
             <link>https://wepli.site/blog/Apple Music API 사용기</link>
             <guid>https://wepli.site/blog/Apple Music API 사용기</guid>
             <pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[이번 글에선 WePLi에서 음악 Apple Music API를 채택하게 된 계기부터 사용 방법까지 얘기해보고자 합니다.]]></description>
-            <content:encoded><![CDATA[<p>이번 글에선 WePLi에서 음악 Apple Music API를 채택하게 된 계기부터 사용 방법까지 얘기해보고자 합니다.</p>
-<br>
+            <description><![CDATA[이 글에서는 WePLi에서 음악 API를 선택하고 활용한 과정을 소개합니다.]]></description>
+            <content:encoded><![CDATA[<p>이 글에서는 WePLi에서 음악 API를 선택하고 활용한 과정을 소개합니다.<br>
+<!-- -->특히 Apple Music API를 선택한 이유와 활용 예시를 중점으로 다룰 예정입니다.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="음악-데이터-구축의-필요성">음악 데이터 구축의 필요성<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#%EC%9D%8C%EC%95%85-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B5%AC%EC%B6%95%EC%9D%98-%ED%95%84%EC%9A%94%EC%84%B1" class="hash-link" aria-label="Direct link to 음악 데이터 구축의 필요성" title="Direct link to 음악 데이터 구축의 필요성">​</a></h3>
-<p>음악과 관련된 서비스라면 음악을 검색할 수 있는 기능은 필수입니다.<br>
-<!-- -->약 1억개 이상의 음악과 새로 추가되는 신곡까지, 이 모든 데이터를 개인이 어떻게 활용할 수 있을까요?</p>
-<p>학부 시절 초기 WePLi(Java Swing 버전) 개발 당시 이는 가장 큰 문제점 중 하나였습니다.<br>
-<!-- -->현재 WePLi 앱에선 제거된 기획이지만, 최초의 WePLi에는 여러 음악 플랫폼의 인기 차트를 합쳐 통합 인기 차트를 제공하는 기능이 있었습니다.</p>
+<p>음악 관련 서비스에서 음악 검색 기능은 필수적인 요소입니다.<br>
+<!-- -->하지만 개인이 1억 개 이상의 곡과 지속적으로 추가되는 신곡 데이터를 직접 구축하는 것은 현실적으로 어렵습니다.</p>
+<p>WePLi의 초기 버전(Java Swing)에서는 여러 음악 플랫폼의 인기 차트를 통합하여 제공하는 기능을 고려했었습니다. 하지만 국내 플랫폼(멜론, 지니, 벅스 등)은 공식적은 API를 제공하지 않아, 크롤링을 이용해야 했습니다.</p>
 <div align="center"><p><img decoding="async" loading="lazy" alt="검색 화면 예시" src="https://wepli.site/assets/images/wepli_chart_screen-5cca5cdcc2c5f95a8abce4618b630da0.png" width="408" height="269" class="img_ev3q"></p><p align="center"></p><p>WePLi(Java Swing) 차트 화면</p><p></p></div>
-<p>이를 구현하기 위해 국내 플랫폼(멜론, 지니, 벅스 등)을 타겟으로 정했지만 국내 플랫폼에선 API를 제공하고 있지 않기 때문에 크롤링으로 개발을 진행했었습니다.</p>
-<p>물론, Java Swing으로 개발했던 WePLi는 배포 계획이 없었기 때문에 크롤링으로 진행해도 문제가 없었지만,
-WePLi 앱은 배포까지 계획하고 있기 때문에 API의 필요성을 느끼게 되었습니다.</p>
-<p>따라서 이번 글에선 음악 API 선택시 고려했던 것들과 사용 방법 등을 간략하게 정리해보고자 합니다.</p>
+<p>당시에는 서비스 배포 계획이 없었기 때문에 크롤링 방식이 문제가 되지 않았지만, 현재의 WePLi 앱은 공식적으로 배포될 예정이므로 안정적이고 법적 문제가 없는 공식 API가 필요했습니다.</p>
+<p>이 글에서는 음악 API를 선택하는 과정과 고려 사항을 정리하고, Apple Music API를 어떻게 활용했는지 소개하겠습니다.</p>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="음악-api-선택시-고려했던-것들">음악 API 선택시 고려했던 것들<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#%EC%9D%8C%EC%95%85-api-%EC%84%A0%ED%83%9D%EC%8B%9C-%EA%B3%A0%EB%A0%A4%ED%96%88%EB%8D%98-%EA%B2%83%EB%93%A4" class="hash-link" aria-label="Direct link to 음악 API 선택시 고려했던 것들" title="Direct link to 음악 API 선택시 고려했던 것들">​</a></h3>
-<p>WePLi에선 검색 기능뿐만 아니라 사용자끼리 노래를 공유하고, 게시글에 노래를 첨부할 수 있는 다양한 기능이 기획 되어 있습니다.</p>
-<p>이런 기능들을 구현하기 위해서 저는 음악 API를 찾기 시작했습니다.</p>
+<p>WePLi는 단순 음악 검색 기능뿐만 아니라 사용자 간 공유, 게시글에 노래 첨부 등 다양한 기능을 제공합니다.
+이러한 기능을 구현하기 위해 적절한 음악 API를 찾기 시작했습니다.</p>
 <p><img decoding="async" loading="lazy" alt="검색 화면 예시" src="https://wepli.site/assets/images/search_screen-6a530c392de3fd398cecd0dcc433e603.png" width="6600" height="7020" class="img_ev3q"></p>
-<p>우선 음악 API를 선택할 당시 고려한 사항은 아래와 같습니다.</p>
+<p>음악 API를 선택할 때 고려한 기준은 다음과 같습니다.</p>
 <ul>
 <li>
-<p><strong>필수 기능</strong><br>
+<p><strong>필수 조건</strong><br>
 <!-- -->• 검색 기능 제공<br>
-<!-- -->• 한국 노래 제공<br>
-<!-- -->• 무료 또는 저렴한 가격</p>
+<!-- -->• 한국 노래 지원<br>
+<!-- -->• 무료 또는 저렴한 비용</p>
 </li>
 <li>
-<p><strong>부가 기능</strong><br>
-<!-- -->• 추천 서비스(검색어,플레이리스트 등) 제공</p>
+<p><strong>부가 조건</strong><br>
+<!-- -->• 추천 서비스 제공(검색어,플레이리스트 등)</p>
 </li>
 </ul>
 <p>위 조건으로 API를 찾던 중, 가장 흔히 사용되는 API 서비스 2개가 눈에 들어왔습니다.</p>
@@ -50,17 +47,46 @@ WePLi 앱은 배포까지 계획하고 있기 때문에 API의 필요성을 느�
 <li>• Apple Music API <a href="https://developer.apple.com/documentation/applemusicapi" target="_blank" rel="noopener noreferrer">[링크]</a></li>
 </ul>
 <br>
-<p>두 서비스를 표로 비교해보면 아래와 같습니다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="spotify-api-vs-apple-music-api-비교">Spotify API vs Apple Music API 비교<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#spotify-api-vs-apple-music-api-%EB%B9%84%EA%B5%90" class="hash-link" aria-label="Direct link to Spotify API vs Apple Music API 비교" title="Direct link to Spotify API vs Apple Music API 비교">​</a></h3>
 <table><thead><tr><th></th><th>Spotify</th><th>Apple Music</th></tr></thead><tbody><tr><td>검색 기능 제공 여부</td><td>O</td><td>O</td></tr><tr><td>국내 노래 제공 여부</td><td>X (영어로 제공)</td><td>O</td></tr><tr><td>가격</td><td>무료</td><td>연 13만원</td></tr></tbody></table>
-<p>표에서 알 수 있듯이 Spotify API의 경우 많은 데이터뿐만 아니라 무료라는 엄청난 장점이 있는 API였지만, 단점도 명확했습니다.</p>
+<p>Spotify API는 방대한 데이터와 무료라는 큰 장점이 있지만, 국내 노래가 한글로 지원 되지 않는다는 큰 단점이 있었습니다.
+아무래도 국내보단 해외에서 많이 사용되는 서비스이기 때문에 가수들이 노래를 등록할 때 영어로 등록을 많이하는 것 같습니다.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="spotify-api의-단점">Spotify API의 단점<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#spotify-api%EC%9D%98-%EB%8B%A8%EC%A0%90" class="hash-link" aria-label="Direct link to Spotify API의 단점" title="Direct link to Spotify API의 단점">​</a></h4>
 <ol>
-<li>• 최신 노래를 제외한 한국 노래들이 영어로 등록 되어있다는 점</li>
-<li>• Spotify 로그인을 필수로 제공해야한다는 점</li>
+<li>• 한국 노래가 영어로 등록 되어있음 -&gt; 검색 및 사용자 경험 저하</li>
+<li>• Spotify 로그인이 필수 -&gt; Spotify를 사용하지 않는 유저에겐 허들로 느껴질 수 있음</li>
 </ol>
 <p>WePLi의 주요 타겟층은 <strong>국내 트렌드에 민감한 10-20대</strong> 사용자입니다.<br>
-<!-- -->10-20대가 주 타겟층인 앱에서 <strong>대부분의 노래가 영어</strong>로만 제공이 된다면 <strong>앱의 매력이 많이 떨어질 것</strong> 같다는 생각이 들었습니다.</p>
-<p>조금이라도 완성도가 높은 앱을 만들고 싶다는 생각에 연 13만원의 비용을 지불하더라도 Apple Music API를 선택하였습니다.</p>]]></content:encoded>
+<!-- -->10-20대가 주 타겟층인 앱에서 대부분의 노래가 영어로만 제공이 된다면 <strong>앱의 매력이 크게 감소할 것</strong>이라 판단했습니다.</p>
+<p>결과적으로 <strong>조금 더 완성도 높은 사용자 경험을 제공하기 위해</strong> 연 13만원의 비용을 지불하더라도 Apple Music API를 선택하였습니다.</p>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apple-music-api-활용">Apple Music API 활용<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#apple-music-api-%ED%99%9C%EC%9A%A9" class="hash-link" aria-label="Direct link to Apple Music API 활용" title="Direct link to Apple Music API 활용">​</a></h3>
+<p>WePLi에선 Apple Music API를 활용하여 다음과 같은 기능을 구현했습니다.</p>
+<p>• <strong>음악 검색 기능</strong></p>
+<ul>
+<li>사용자가 원하는 노래를 검색하면, Apple Music API에서 제목, 아티스트, 앨범 정보, 썸네일 이미지 등을 가져옵니다.</li>
+<li>검색 결과를 기반으로 사용자가 쉽게 곡을 추가하고 공유할 수 있도록 UI를 구성했습니다.</li>
+</ul>
+<p>• <strong>인기 차트</strong></p>
+<ul>
+<li>Apple Music의 인기 차트 데이터를 가져와 실시간으로 트렌드 곡을 제공합니다.</li>
+<li>사용자가 현재 인기 있는 곡을 쉽게 확인할 수 있도록 구현되었습니다.</li>
+</ul>
+<p>• <strong>인기 검색어</strong></p>
+<ul>
+<li>Apple Music API를 활용해 사용자들이 많이 검색하는 키워드를 분석하여 제공하는 기능입니다.</li>
+<li>이를 통해 사용자는 현재 유행하는 음악을 쉽게 찾을 수 있습니다.</li>
+</ul>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="마무리">마무리<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#%EB%A7%88%EB%AC%B4%EB%A6%AC" class="hash-link" aria-label="Direct link to 마무리" title="Direct link to 마무리">​</a></h3>
+<p>WePLi는 사용자 경험을 최우선으로 고려하여 Apple Music API를 선택했습니다.<br>
+<!-- -->비용적인 부담은 있지만, 보다 완성도 높은 음악 검색 및 공유 기능을 제공할 수 있다는 점에서 충분히 가치 있는 선택이라고 판단했습니다.</p>
+<p>앞으로도 API를 활용한 기능을 확장하면서, 더 나은 사용자 경험을 제공할 계획입니다.<br>
+<!-- -->다음 글에서는 Apple Music API를 실제로 적용한 코드 및 구현 방법을 상세히 다뤄보겠습니다.</p>
+<p>긴 글 읽어주셔서 감사합니다 🎵</p>]]></content:encoded>
             <category>WePLi</category>
+            <category>Apple Music API</category>
+            <category>Spotify API</category>
             <category>MusicApp</category>
         </item>
         <item>

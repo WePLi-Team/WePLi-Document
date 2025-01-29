@@ -39,7 +39,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '0b0'),
+    component: ComponentCreator('/blog', '08f'),
+    exact: true
+  },
+  {
+    path: '/blog/Apple Music API 사용기',
+    component: ComponentCreator('/blog/Apple Music API 사용기', '144'),
     exact: true
   },
   {
@@ -59,7 +64,7 @@ export default [
   },
   {
     path: '/blog/authors/donghyeon',
-    component: ComponentCreator('/blog/authors/donghyeon', 'b05'),
+    component: ComponentCreator('/blog/authors/donghyeon', 'fee'),
     exact: true
   },
   {
@@ -99,12 +104,12 @@ export default [
   },
   {
     path: '/blog/tags/music-app',
-    component: ComponentCreator('/blog/tags/music-app', '8e3'),
+    component: ComponentCreator('/blog/tags/music-app', 'b62'),
     exact: true
   },
   {
     path: '/blog/tags/we-p-li',
-    component: ComponentCreator('/blog/tags/we-p-li', '7e7'),
+    component: ComponentCreator('/blog/tags/we-p-li', '3a7'),
     exact: true
   },
   {

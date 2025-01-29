@@ -124,7 +124,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project"
+      "copyright": "Copyright © 2025 My Project"
     },
     "prism": {
       "theme": {

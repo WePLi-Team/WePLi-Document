@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "음악 API를 찾고 활용하기까지의 과정",
+      "permalink": "/blog/Apple Music API 사용기",
+      "unlisted": false,
+      "date": "2024-12-29T00:00:00.000Z"
+    },
+    {
       "title": "WePLi를 개발하게 된 이유",
       "permalink": "/blog/WePLi를 개발하게 된 이유",
       "unlisted": false,

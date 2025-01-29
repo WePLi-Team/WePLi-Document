@@ -183,6 +183,19 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
   },
+  "/blog/tags/apple-music-api-0c5": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogf-1-f-466"
+      }
+    ],
+    "__props": "__props---blog-tags-apple-music-api-943-a6f"
+  },
   "/blog/tags/docusaurus-b5c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -246,6 +259,19 @@
       }
     ],
     "__props": "__props---blog-tags-music-appff-6-816"
+  },
+  "/blog/tags/spotify-api-bee": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogf-1-f-466"
+      }
+    ],
+    "__props": "__props---blog-tags-spotify-api-8-d-8-782"
   },
   "/blog/tags/we-p-li-3a7": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

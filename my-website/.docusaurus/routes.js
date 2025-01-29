@@ -88,6 +88,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/apple-music-api',
+    component: ComponentCreator('/blog/tags/apple-music-api', '0c5'),
+    exact: true
+  },
+  {
     path: '/blog/tags/docusaurus',
     component: ComponentCreator('/blog/tags/docusaurus', 'b5c'),
     exact: true
@@ -105,6 +110,11 @@ export default [
   {
     path: '/blog/tags/music-app',
     component: ComponentCreator('/blog/tags/music-app', 'b62'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/spotify-api',
+    component: ComponentCreator('/blog/tags/spotify-api', 'bee'),
     exact: true
   },
   {

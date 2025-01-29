@@ -26,7 +26,7 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="음악-api-선택-시-고려했던-것들">음악 API 선택 시 고려했던 것들<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#%EC%9D%8C%EC%95%85-api-%EC%84%A0%ED%83%9D-%EC%8B%9C-%EA%B3%A0%EB%A0%A4%ED%96%88%EB%8D%98-%EA%B2%83%EB%93%A4" class="hash-link" aria-label="Direct link to 음악 API 선택 시 고려했던 것들" title="Direct link to 음악 API 선택 시 고려했던 것들">​</a></h3>
 <p>WePLi는 단순 음악 검색 기능뿐만 아니라 사용자 간 공유, 게시글에 노래 첨부 등 다양한 기능을 제공합니다.
 이러한 기능을 구현하기 위해 적절한 음악 API를 찾기 시작했습니다.</p>
-<p><img decoding="async" loading="lazy" alt="검색 화면 예시" src="https://wepli.site/assets/images/search_screen-6a530c392de3fd398cecd0dcc433e603.png" width="6600" height="7020" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="검색 화면 예시" src="https://wepli.site/assets/images/search_screen-2718a96fee72d2e55cc000033e8c8b88.png" width="4441" height="2345" class="img_ev3q"></p>
 <p>음악 API를 선택할 때 고려한 기준은 다음과 같습니다.</p>
 <ul>
 <li>

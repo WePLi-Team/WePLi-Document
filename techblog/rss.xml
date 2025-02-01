@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>WePLi Blog</title>
+        <link>https://wepli.site/techblog</link>
+        <description>WePLi Blog</description>
+        <lastBuildDate>Sat, 01 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>Copyright © 2025 Facebook, Inc.</copyright>
+        <item>
+            <title><![CDATA[WePLi 기술 블로그 소개]]></title>
+            <link>https://wepli.site/techblog/wepli-tech-blog</link>
+            <guid>https://wepli.site/techblog/wepli-tech-blog</guid>
+            <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.]]></description>
+            <content:encoded><![CDATA[<p>해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.</p>
+]]></content:encoded>
+            <category>WePLi</category>
+            <category>MusicApp</category>
+        </item>
+    </channel>
+</rss>

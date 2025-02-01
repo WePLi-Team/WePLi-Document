@@ -1,0 +1,24 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "WePLi Blog",
+    "home_page_url": "https://wepli.site/techblog",
+    "description": "WePLi Blog",
+    "items": [
+        {
+            "id": "https://wepli.site/techblog/wepli-tech-blog",
+            "content_html": "<p>해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.</p>\n",
+            "url": "https://wepli.site/techblog/wepli-tech-blog",
+            "title": "WePLi 기술 블로그 소개",
+            "summary": "해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.",
+            "date_modified": "2025-02-01T00:00:00.000Z",
+            "author": {
+                "name": "Donghyeon Kim",
+                "url": "https://github.com/dongx0915"
+            },
+            "tags": [
+                "WePLi",
+                "MusicApp"
+            ]
+        }
+    ]
+}

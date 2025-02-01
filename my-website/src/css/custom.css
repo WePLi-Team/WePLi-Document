@@ -261,6 +261,9 @@ ol {
 
 .table-of-contents,
 .table-of-contents ul,
-.table-of-contents li {
+.table-of-contents li,
+.footer__items,
+.footer__items ul,
+.footer__items li {
   list-style: none !important;
 }

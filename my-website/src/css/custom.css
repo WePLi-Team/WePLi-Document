@@ -250,3 +250,12 @@ span .token {
   background-color: rgba(0, 0, 0, 0.5);
   transition: opacity 0.3s ease-in-out; /* 백드롭 애니메이션 */
 }
+
+ul li {
+  list-style: initial;
+  margin-left: 0.5em;
+}
+
+ol {
+  list-style-type: decimal;
+}

@@ -139,7 +139,7 @@ export default [
   },
   {
     path: '/techblog',
-    component: ComponentCreator('/techblog', '140'),
+    component: ComponentCreator('/techblog', 'c99'),
     exact: true
   },
   {
@@ -154,7 +154,7 @@ export default [
   },
   {
     path: '/techblog/authors/donghyeon',
-    component: ComponentCreator('/techblog/authors/donghyeon', '088'),
+    component: ComponentCreator('/techblog/authors/donghyeon', '71a'),
     exact: true
   },
   {
@@ -164,17 +164,17 @@ export default [
   },
   {
     path: '/techblog/tags/music-app',
-    component: ComponentCreator('/techblog/tags/music-app', 'fb5'),
+    component: ComponentCreator('/techblog/tags/music-app', '9c9'),
     exact: true
   },
   {
     path: '/techblog/tags/we-p-li',
-    component: ComponentCreator('/techblog/tags/we-p-li', '117'),
+    component: ComponentCreator('/techblog/tags/we-p-li', '951'),
     exact: true
   },
   {
     path: '/techblog/wepli-tech-blog',
-    component: ComponentCreator('/techblog/wepli-tech-blog', 'ecc'),
+    component: ComponentCreator('/techblog/wepli-tech-blog', '742'),
     exact: true
   },
   {

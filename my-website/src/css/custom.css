@@ -253,9 +253,14 @@ span .token {
 
 ul li {
   list-style: initial;
-  margin-left: 0.5em;
 }
 
 ol {
   list-style-type: decimal;
+}
+
+.table-of-contents,
+.table-of-contents ul,
+.table-of-contents li {
+  list-style: none !important;
 }

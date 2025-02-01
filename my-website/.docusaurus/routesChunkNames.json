@@ -318,7 +318,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/techblog-c99": {
+  "/techblog-d90": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
@@ -327,6 +327,9 @@
     "items": [
       {
         "content": "content---techblogaf-5-79a"
+      },
+      {
+        "content": "content---techblog-3-e-7-ba0"
       }
     ],
     "__props": "__props---techblog-8-bb-05b"
@@ -349,7 +352,7 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "__props": "__props---techblog-authors-7-ab-114"
   },
-  "/techblog/authors/donghyeon-71a": {
+  "/techblog/authors/donghyeon-b19": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -360,6 +363,9 @@
     "items": [
       {
         "content": "content---techblogaf-5-79a"
+      },
+      {
+        "content": "content---techblog-3-e-7-ba0"
       }
     ],
     "sidebar": "sidebar---techblogf-94-2f2",
@@ -373,7 +379,7 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "__props": "__props---techblog-tags-0-c-8-12d"
   },
-  "/techblog/tags/music-app-9c9": {
+  "/techblog/tags/music-app-e10": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
@@ -382,11 +388,14 @@
     "items": [
       {
         "content": "content---techblogaf-5-79a"
+      },
+      {
+        "content": "content---techblog-3-e-7-ba0"
       }
     ],
     "__props": "__props---techblog-tags-music-app-5-c-0-1c0"
   },
-  "/techblog/tags/we-p-li-951": {
+  "/techblog/tags/we-p-li-b02": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
@@ -395,6 +404,9 @@
     "items": [
       {
         "content": "content---techblogaf-5-79a"
+      },
+      {
+        "content": "content---techblog-3-e-7-ba0"
       }
     ],
     "__props": "__props---techblog-tags-we-p-li-294-493"
@@ -409,6 +421,17 @@
     },
     "sidebar": "sidebar---techblogf-94-2f2",
     "content": "content---techblog-wepli-tech-blogcfd-c9f"
+  },
+  "/techblog/wepli-tech-blog-supabase-json-839": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---techblog-apple-music-api-사용기bb-2-b03"
+      },
+      "plugin": "plugin---techblog-977-c48"
+    },
+    "sidebar": "sidebar---techblogf-94-2f2",
+    "content": "content---techblog-wepli-tech-blog-supabase-json-92-b-753"
   },
   "/docs-758": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",

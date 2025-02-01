@@ -77,6 +77,22 @@ const config: Config = {
         },
       };
     },
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'techblog',
+        routeBasePath: 'techblog',
+        path: './techblog',
+        include: ['**/*.{md,mdx}'],
+        editUrl:
+          'https://github.com/facebook/docusaurus/edit/master/website/my-blog',
+        postsPerPage: 2,
+        feedOptions: {
+          type: 'all',
+          copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+        },
+      },
+    ],
   ],
 
   themeConfig: {
@@ -99,6 +115,7 @@ const config: Config = {
           label: 'Document',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/techblog', label: 'Tech Blog', position: 'left'},
         {
           href: 'https://github.com/dongx0915/WePLi-Android',
           label: 'Download',

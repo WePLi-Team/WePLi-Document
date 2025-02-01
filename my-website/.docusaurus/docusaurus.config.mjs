@@ -50,7 +50,24 @@ export default {
     ]
   ],
   "plugins": [
-    null
+    null,
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        "id": "techblog",
+        "routeBasePath": "techblog",
+        "path": "./techblog",
+        "include": [
+          "**/*.{md,mdx}"
+        ],
+        "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/my-blog",
+        "postsPerPage": 2,
+        "feedOptions": {
+          "type": "all",
+          "copyright": "Copyright © 2025 Facebook, Inc."
+        }
+      }
+    ]
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
@@ -75,6 +92,11 @@ export default {
         {
           "to": "/blog",
           "label": "Blog",
+          "position": "left"
+        },
+        {
+          "to": "/techblog",
+          "label": "Tech Blog",
           "position": "left"
         },
         {

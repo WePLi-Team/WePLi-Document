@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6426],{5365:e=>{e.exports=JSON.parse('{"tags":[{"label":"WePLi","permalink":"/techblog/tags/we-p-li","count":1},{"label":"MusicApp","permalink":"/techblog/tags/music-app","count":1}]}')}}]);

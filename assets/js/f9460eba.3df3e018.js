@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3612],{4093:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"WePLi \uae30\uc220 \ube14\ub85c\uadf8 \uc18c\uac1c","permalink":"/techblog/wepli-tech-blog","unlisted":false,"date":"2025-02-01T00:00:00.000Z"}]}')}}]);

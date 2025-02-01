@@ -29,21 +29,24 @@
 <p><img decoding="async" loading="lazy" alt="검색 화면 예시" src="https://wepli.site/assets/images/search_screen-2718a96fee72d2e55cc000033e8c8b88.png" width="4441" height="2345" class="img_ev3q"></p>
 <p>음악 API를 선택할 때 고려한 기준은 다음과 같습니다.</p>
 <ul>
-<li>
-<p><strong>필수 조건</strong><br>
-<!-- -->• 검색 기능 제공<br>
-<!-- -->• 한국 노래 지원<br>
-<!-- -->• 무료 또는 저렴한 비용</p>
+<li><strong>필수 조건</strong>
+<ul>
+<li>검색 기능 제공</li>
+<li>한국 노래 지원</li>
+<li>무료 또는 저렴한 비용</li>
+</ul>
+<br>
 </li>
-<li>
-<p><strong>부가 조건</strong><br>
-<!-- -->• 추천 서비스 제공(검색어, 플레이리스트 등)</p>
+<li><strong>부가 조건</strong>
+<ul>
+<li>추천 서비스 제공(검색어, 플레이리스트 등)</li>
+</ul>
 </li>
 </ul>
 <p>위 조건으로 API를 찾던 중, 가장 흔히 사용되는 API 서비스 2개가 눈에 들어왔습니다.</p>
 <ul>
-<li>• Spotify API <a href="https://developer.spotify.com/terms" target="_blank" rel="noopener noreferrer">[링크]</a></li>
-<li>• Apple Music API <a href="https://developer.apple.com/documentation/applemusicapi" target="_blank" rel="noopener noreferrer">[링크]</a></li>
+<li>Spotify API <a href="https://developer.spotify.com/terms" target="_blank" rel="noopener noreferrer">[링크]</a></li>
+<li>Apple Music API <a href="https://developer.apple.com/documentation/applemusicapi" target="_blank" rel="noopener noreferrer">[링크]</a></li>
 </ul>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="spotify-api-vs-apple-music-api-비교">Spotify API vs Apple Music API 비교<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#spotify-api-vs-apple-music-api-%EB%B9%84%EA%B5%90" class="hash-link" aria-label="Direct link to Spotify API vs Apple Music API 비교" title="Direct link to Spotify API vs Apple Music API 비교">​</a></h3>
@@ -52,8 +55,8 @@
 아무래도 국내보단 해외에서 많이 사용되는 서비스이기 때문에 가수들이 노래를 등록할 때 영어로 등록을 많이 하는 것 같습니다.</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="spotify-api의-단점">Spotify API의 단점<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#spotify-api%EC%9D%98-%EB%8B%A8%EC%A0%90" class="hash-link" aria-label="Direct link to Spotify API의 단점" title="Direct link to Spotify API의 단점">​</a></h4>
 <ol>
-<li>• 한국 노래가 영어로 등록되어 있음 -&gt; 검색 및 사용자 경험 저하</li>
-<li>• Spotify 로그인이 필수 -&gt; Spotify를 사용하지 않는 유저에겐 허들로 느껴질 수 있음</li>
+<li>한국 노래가 영어로 등록되어 있음 -&gt; 검색 및 사용자 경험 저하</li>
+<li>Spotify 로그인이 필수 -&gt; Spotify를 사용하지 않는 유저에겐 허들로 느껴질 수 있음</li>
 </ol>
 <p>WePLi의 주요 타깃층은 <strong>국내 트렌드에 민감한 10-20대</strong> 사용자입니다.<br>
 <!-- -->10-20대가 주 타깃층인 앱에서 대부분의 노래가 영어로만 제공이 된다면 <strong>앱의 매력이 크게 감소할 것</strong>이라 판단했습니다.</p>
@@ -61,21 +64,28 @@
 <br>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="apple-music-api-활용">Apple Music API 활용<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#apple-music-api-%ED%99%9C%EC%9A%A9" class="hash-link" aria-label="Direct link to Apple Music API 활용" title="Direct link to Apple Music API 활용">​</a></h3>
 <p>WePLi에선 Apple Music API를 활용하여 다음과 같은 기능을 구현했습니다.</p>
-<p>• <strong>음악 검색 기능</strong></p>
+<ol>
+<li><strong>음악 검색 기능</strong>
 <ul>
-<li>사용자가 원하는 노래를 검색하면, Apple Music API에서 제목, 아티스트, 앨범 정보, 썸네일 이미지 등을 가져옵니다.</li>
+<li>사용자가 원하는 노래를 검색하면, Apple Music API에서 제목, 아티스트, 앨범, 썸네일 이미지 등을 가져옵니다.</li>
 <li>검색 결과를 기반으로 사용자가 쉽게 곡을 추가하고 공유할 수 있도록 UI를 구성했습니다.</li>
 </ul>
-<p>• <strong>인기 차트</strong></p>
+<br>
+</li>
+<li><strong>인기 차트</strong>
 <ul>
 <li>Apple Music의 인기 차트 데이터를 가져와 실시간으로 트렌드 곡을 제공합니다.</li>
 <li>사용자가 현재 인기 있는 곡을 쉽게 확인할 수 있도록 구현되었습니다.</li>
 </ul>
-<p>• <strong>인기 검색어</strong></p>
+<br>
+</li>
+<li><strong>인기 검색어</strong>
 <ul>
 <li>Apple Music API를 활용해 사용자들이 많이 검색하는 키워드를 분석하여 제공하는 기능입니다.</li>
 <li>이를 통해 사용자는 현재 유행하는 음악을 쉽게 찾을 수 있습니다.</li>
 </ul>
+</li>
+</ol>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="마무리">마무리<a href="https://wepli.site/blog/Apple%20Music%20API%20%EC%82%AC%EC%9A%A9%EA%B8%B0#%EB%A7%88%EB%AC%B4%EB%A6%AC" class="hash-link" aria-label="Direct link to 마무리" title="Direct link to 마무리">​</a></h3>
 <p>WePLi는 사용자 경험을 최우선으로 고려하여 Apple Music API를 선택했습니다.<br>

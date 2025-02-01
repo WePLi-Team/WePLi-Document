@@ -267,3 +267,8 @@ ol {
 .footer__items li {
   list-style: none !important;
 }
+
+html.plugin-blog h2, 
+html.plugin-blog.blog-post-page h1 {
+    font-size: 2rem;
+}

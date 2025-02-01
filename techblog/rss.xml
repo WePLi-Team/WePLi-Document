@@ -10,17 +10,6 @@
         <language>en</language>
         <copyright>Copyright © 2025 Facebook, Inc.</copyright>
         <item>
-            <title><![CDATA[WePLi 기술 블로그 소개]]></title>
-            <link>https://wepli.site/techblog/wepli-tech-blog</link>
-            <guid>https://wepli.site/techblog/wepli-tech-blog</guid>
-            <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.]]></description>
-            <content:encoded><![CDATA[<p>해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.</p>
-]]></content:encoded>
-            <category>WePLi</category>
-            <category>MusicApp</category>
-        </item>
-        <item>
             <title><![CDATA[Supabase Json으로 계층 구현하기]]></title>
             <link>https://wepli.site/techblog/wepli-tech-blog-supabase-json</link>
             <guid>https://wepli.site/techblog/wepli-tech-blog-supabase-json</guid>
@@ -104,6 +93,17 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="결론">결론<a href="https://wepli.site/techblog/wepli-tech-blog-supabase-json#%EA%B2%B0%EB%A1%A0" class="hash-link" aria-label="Direct link to 결론" title="Direct link to 결론">​</a></h3>
 <p>Supabase와 PostgreSQL의 JSON Aggregation 기능을 활용하여 계층형 데이터를 미리 구성함으로써, 안드로이드 앱 개발에서 네트워크 최적화 및 클라이언트 로직 단순화라는 이점을 얻을 수 있었습니다.</p>
 <p>서버 대신 Supabase를 이용해서 개발을 하시는 분들이 있다면 해당 글을 참고해서 활용해보시면 좋을 것 같습니다.</p>]]></content:encoded>
+            <category>WePLi</category>
+            <category>MusicApp</category>
+        </item>
+        <item>
+            <title><![CDATA[WePLi 기술 블로그 소개]]></title>
+            <link>https://wepli.site/techblog/wepli-tech-blog</link>
+            <guid>https://wepli.site/techblog/wepli-tech-blog</guid>
+            <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.]]></description>
+            <content:encoded><![CDATA[<p>해당 블로그는 WePLi 개발 과정 중 기술적인 부분에 대해서 작성하기 위한 페이지입니다.</p>
+]]></content:encoded>
             <category>WePLi</category>
             <category>MusicApp</category>
         </item>

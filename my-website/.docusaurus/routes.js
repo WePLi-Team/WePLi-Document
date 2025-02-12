@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '08f'),
+    component: ComponentCreator('/blog', '0bb'),
     exact: true
   },
   {
@@ -64,7 +64,7 @@ export default [
   },
   {
     path: '/blog/authors/donghyeon',
-    component: ComponentCreator('/blog/authors/donghyeon', 'fee'),
+    component: ComponentCreator('/blog/authors/donghyeon', '3b6'),
     exact: true
   },
   {
@@ -103,6 +103,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/fake-loading',
+    component: ComponentCreator('/blog/tags/fake-loading', '413'),
+    exact: true
+  },
+  {
     path: '/blog/tags/hello',
     component: ComponentCreator('/blog/tags/hello', '299'),
     exact: true
@@ -118,8 +123,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/ui',
+    component: ComponentCreator('/blog/tags/ui', '618'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ux',
+    component: ComponentCreator('/blog/tags/ux', '48b'),
+    exact: true
+  },
+  {
     path: '/blog/tags/we-p-li',
-    component: ComponentCreator('/blog/tags/we-p-li', '3a7'),
+    component: ComponentCreator('/blog/tags/we-p-li', '586'),
     exact: true
   },
   {
@@ -130,6 +145,11 @@ export default [
   {
     path: '/blog/WePLi를 개발하게 된 이유',
     component: ComponentCreator('/blog/WePLi를 개발하게 된 이유', 'c33'),
+    exact: true
+  },
+  {
+    path: '/blog/가짜 로딩을 활용하는 방법',
+    component: ComponentCreator('/blog/가짜 로딩을 활용하는 방법', '9bd'),
     exact: true
   },
   {

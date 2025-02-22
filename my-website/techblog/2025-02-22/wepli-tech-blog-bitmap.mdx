@@ -9,6 +9,7 @@ tags: [WePLi, MusicApp]
 import NameCardFlow from './namecard_flow.png';
 import NameCardDesign from './namecard_design.png';
 import NameCardBlur from './namecard_blur.png';
+import NameCardGif from './namecard_gif.gif';
 
 Composable을 Bitmap으로 변환하는 과정에서 발생한 이슈와 해결 과정에 대해 소개합니다.
 
@@ -201,7 +202,9 @@ graphicsLayer.toImageBitmap()는 suspend 함수이므로, Coroutine 내에서 �
 또한 UI가 완전히 렌더링된 뒤에 호출해야 올바른 결과물을 얻을 수 있습니다.
 :::
 
-/* 동작 GIF 추가하기 */
+
+<br/>
+<br/>
 
 
 ### BottomSheet에서 Bitmap 보여주기
@@ -238,7 +241,14 @@ if (state.isShownShareBottomSheet) {
 }
 ```
 
+**동작 결과**
 
+<div align="center">
+  <img src={NameCardGif} alt="Loading" style={{width: 200}}/>
+</div>
+
+<br/>
+<br/>
 
 ### 마무리
 

@@ -6,6 +6,8 @@ date: "2025-02-01"
 tags: [WePLi, MusicApp]
 ---
 
+import RdbImage from './rdb.png';
+
 Supabase를 사용하면서 View를 사용했을 때의 문제점을 소개합니다.
 
 <br/>
@@ -20,11 +22,18 @@ Supabase는 서버가 없는 동안 임시 대체제로 사용되고 있으며, 
 앱에 영향이 없으려면 Supabae에서 실제 서버의 응답 구조와 비슷하게 구성을 해야하는데,  
 여기서 한 가지 문제점이 존재합니다.  
 
+<br/>
+<div align="center">
+  <img src={RdbImage} alt="Loading" style={{width: 400}}/>
+</div>
+<br/>
+
 관계형 데이터베이스는 기본적으로 **평면적인 테이블 구조**를 사용하기 때문에 **계층 데이터를 표현하기 어렵습니다.**  
 이로 인해 Supabase의 응답 형식과 실제 서버의 응답 구조 사이에 차이가 발생하며, 이 차이가 클수록 실제 서버 전환 시 앱 코드 수정 사항이 많아집니다.
 
 이 글에서는 기존 View 방식의 한계와, **PostgreSQL**의 ***JSON Aggregation*** 기능을 활용하여 계층형 데이터 뷰를 구성하는 방법을 소개합니다.
 
+<br/>
 
 ### 기존 View 생성 방식과 그 한계
 
@@ -73,6 +82,7 @@ FROM posts p
 3. 서버 마이그레이션 및 API 변경 시 추가 공수 발생
     - 서버 API는 일반적으로 계층적 구조로 데이터를 제공하므로, 이후 실제 서버로 마이그레이션시 수정이 불가피합니다.
 
+<br/>
 
 ### Json Aggregation을 활용한 계층형 View 생성 방식
 
@@ -157,6 +167,7 @@ CREATE OR REPLACE VIEW post_tree_view as
 }
 ```
 
+<br/>
 
 ### 안드로이드 입장에서의 Json 기반 View 활용 장점
 
@@ -172,6 +183,7 @@ CREATE OR REPLACE VIEW post_tree_view as
 	- 서버 API 변경이나 마이그레이션 시, 계층형 데이터 구조를 유지함으로써 클라이언트 코드 변경 부담이 줄어듦
 
 
+<br/>
 
 ### 결론
 

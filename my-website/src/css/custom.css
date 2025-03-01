@@ -259,6 +259,9 @@ ol {
   list-style-type: decimal;
 }
 
+.menu__list,
+.menu__list ul,
+.menu__list li,
 .table-of-contents,
 .table-of-contents ul,
 .table-of-contents li,

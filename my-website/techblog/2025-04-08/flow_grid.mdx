@@ -1,0 +1,262 @@
+---
+slug: wepli-tech-blog-flow-grid
+title: Compose 반응형 앨범 그리드 구현하기 - LazyVerticalGrid 대신 FlowRow를 쓴 이유
+authors: [donghyeon]
+date: "2025-04-08"
+tags: [WePLi, MusicApp]
+---
+import FeatureScreenShot from './feature_capture.png';
+import FlowRowImg from './flowrow.png';
+import LayoutDocs from './layout.png';
+import WindowSizeClass from './window_size_class.png';
+
+{/* truncate */}
+
+Compose를 통해 음악 정보 화면을 구현하면서, 마지막에 아티스트의 앨범을 그리드 형태로 보여주는 기능을 개발해야 했습니다.
+
+여기서 가장 중요하게 고려한 UX 요소는 앨범 아이템의 크기가 너무 커지면 사용자가 부담스럽게 느낄 수 있다는 점이었습니다.
+따라서 화면의 크기가 넓어질수록 그리드의 Span 수를 늘려 아이템이 항상 보기 편한 크기로 유지되도록 설계하고 싶었습니다.
+
+처음엔 간단히 LazyVerticalGrid를 사용하면 될 거라고 생각헀는데, 예상치 못한 문제가 발생하여 이 글을 쓰게 되었습니다.
+
+이 글에서는 반응형 앨범 그리드를 구현하면서 마주친 문제 상황과 이를 UX 관점에서 어떻게 고민하고 해결하였는지에 대한 과정을 공유하고자 합니다.
+
+### 기능 소개
+우선 먼저 구현하고 있는 기능은 음악 상세 정보 페이지입니다.
+
+<br/>
+<div align="center">
+  <img src={FeatureScreenShot} alt="Loading" style={{width: 600}}/>
+</div>
+
+<br/>
+
+페이지 하단에는 해당 가수의 다른 앨범들을 그리드 형태로 정리하여 보여주는 섹션이 있습니다.
+
+이처럼 그리드 형태의 UI를 사용하는 경우, 디바이스 화면 크기에 따라 아이템의 크기나 Span 수를 유동적으로 조절하는 것이 매우 중요합니다.
+
+특히 아이템이 너무 커지면 사용자가 부담스럽게 느낄 수 있기 때문에, 적절한 밀도로 앨범이 배치 되도록하는 것이 이번 UI/UX의 핵심이었습니다.
+
+처음에는 간단히 LazyVerticalGrid를 사용하면 끝날 줄 알았습니다.
+하지만 막상 구현을 시작하자마자, 예상치 못한 제약에 부딪혔습니다.
+
+<br/>
+<br/>
+
+### 📌 문제 상황: LazyVerticalGrid는 LazyColumn과 함께 쓸 수 없다.
+
+처음 구성한 구조는 아래와 같습니다.
+
+```kotlin
+Column(
+    modifier = Modifier
+        .fillMaxSize()
+        .verticalScroll(scrollState)
+) {
+    // 기타 Component
+    LazyVerticalGrid(...) // 문제 발생 지점
+}
+```
+
+이처럼 LazyVerticalGrid를 스크롤 가능한 Column 내부에 넣었더니, 실행과 동시에 크래시가 발생하며 아래와 같은 에러 메시지가 출력 되었습니다.
+
+:::danger[Error]
+<b>IllegalStateException</b>
+Nesting scrollable in the same direction layouts like LazyColumn and LazyVerticalGrid is not allowed.
+:::
+
+<br/>
+
+즉, **스크롤 가능한 레이아웃 안에 또 다른 Lazy 스크롤 레이아웃을 넣으면 안 된다**는 의미였습니다.
+Compose에서 스크롤 충돌을 방지하기 위해 이러한 구조를 제한하고 있습니다.
+
+LazyVerticalGrid 뿐만 아니라 LazyColumn(or Row) 내에 같은 방향의 스크롤 가능한 Component를 추가하면 동일한 크래시가 발생합니다.
+
+이후 여러 구조로 바꿔서 시도해도 결국 해결되지 않았습니다.
+이 문제를 해결하려면 **스크롤 충돌 없이도 그리드 레이아웃을 만들 수 있는 새로운 방법**이 필요했습니다.
+
+<br/>
+
+### ✅ 명확한 해결 방법을 찾기 위한 UI 요구사항 재정리
+
+LazyVerticalGrid를 대신할 방안을 찾기 위해 다시 한 번 UI 요구사항부터 명확히 정리해보기 시작했습니다.
+
+제가 구현하고자 하는 UI의 조건은 다음과 같았습니다.
+
+- 앨범 리스트를 그리드 형태로 보여줄 것
+- 앨범 아이템 크기는 화면 너비에 따라 동적으로 변할 것
+- 화면 너비에 따라 한 줄에 보여지는 앨범의 개수가 달라질 것
+  - ( 아이템의 크기가 너무 커지지 않게 조절하여 사용자가 부담을 느끼지 않는게 중요 )
+  - 일반적인 스마트폰 화면에선 한 줄에 2개
+  - 더 넓은 화면에선 한 줄에 4개
+- VerticalScroll이 가능한 레이아웃에서 사용 가능할 것
+
+위의 요구사항을 보면, 결국 자체적으로 스크롤을 관리하는 기능이 없으면서 그리드 형태를 표현할 수 있는 Component가 필요한 것을 알 수 있었습니다.
+
+<br/>
+
+### 💡요구사항을 기반으로 구현 로직을 고민하기
+
+위의 요구사항을 충족하기 위해 고려해야 할 사항은 다음과 같습니다.
+
+1. 화면의 너비에 따라 각 아이템의 너비를 동적으로 계산할 수 있어야 함
+2. 계산된 아이템의 너비를 기반으로 한 줄에 표시되는 아이템 수를 조정해야 함
+3. 최상위 Column 내에서 스크롤을 공유해야 하므로 자제적으로 스크롤을 처리하지 않는 컴포넌트가 필요함
+
+<br/>
+
+이 요구사항을 바탕으로 Compose의 **FlowRow**라는 Component를 떠올렸습니다.
+
+<div align="center">
+  <img src={FlowRowImg} alt="Loading" style={{width: 300}}/>
+</div>
+
+**FlowRow**는 아이템이 지정된 너비를 초과할 경우 자동으로 다음 줄로 넘어가는 Composable입니다.
+
+
+<br/>
+
+### ✨ FlowRow를 이용한 반응형 그리드 구현
+
+```kotlin
+@Composable
+fun ResponsiveAlbumGrid(albums: List<AlbumUiData>) {
+    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
+        val isCompact = maxWidth < 500.dp
+        val itemsPerRow = if (isCompact) 2 else 4
+        val spacing = 20.dp
+
+        val itemWidthPx = (maxWidth.toPx() - spacing.toPx() * (itemsPerRow - 1)) / itemsPerRow
+        val itemWidthDp = with(LocalDensity.current) { itemWidthPx.toDp() }
+
+        FlowRow(
+            modifier = Modifier.fillMaxWidth(),
+            maxItemsInEachRow = itemsPerRow,
+            horizontalArrangement = Arrangement.spacedBy(spacing),
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            albums.forEach { album ->
+                AlbumComponent(
+                    album = album,
+                    modifier = Modifier.width(itemWidthDp)
+                )
+            }
+        }
+    }
+}
+```
+
+#### 코드 설명
+- BoxWithConstraints로 현재 화면의 최대 너비(maxWitdh)를 측정합니다.
+- 화면 너비가 500dp 미만이면 한 줄에 2개, 그 이상이면 4개씩 표시합니다.
+- 각 앨범 아이템의 너비는 화면 너비와 아이템 간 간격(spacing)을 고려하여 동적으로 계산됩니다.
+
+
+<br/>
+
+### 🚨 개선 필요한 부분: 하드코딩된 값 피하기
+
+위의 코드로도 충분히 잘 동작하였으나, 한 가지 아쉬운 점이 있었습니다.
+화면의 크기를 결정하는 기준을 아래와 같이 하드코딩해서 구현하고 있습니다.
+
+```kotlin
+val isCompact = maxWidth < 500.dp
+```
+
+물론 지금 요구사항에서는 한 행에 보여지는 아이템이 사용자가 부담을 느낄 정도로 커지지만 않으면 되기 때문에 문제는 없습니다.
+
+그러나 기준도 애매하고 좋은 방법은 아닌 것 같아서 공식 문서를 찾아 보았습니다.
+
+<div align="center">
+  <img src={LayoutDocs} alt="Loading"/>
+  <p style={{ fontSize: "0.85rem", color: "#6c757d", textAlign: "center" }}>
+        <a href="https://developer.android.com/develop/ui/compose/layouts/adaptive/support-different-screen-sizes?hl=ko&utm_source=chatgpt.com#explicit-layout-changes">다양한 크기 지원 | Jectpack Compose | Android Developers</a>
+    </p>
+</div>
+
+역시나 공식 문서에서는 **레이아웃을 결정할 때 실제 하드웨어 값을 사용하지 말 것**을 권장하고 있었습니다.
+그 이유는 아래와 같습니다.
+
+:::info[Why]
+태블릿이나 Chrome OS 환경, 폴더블 기기, 멀티 윈도우 모드와 같이 화면 크기가 수시로 바뀔 수 있는 환경에서는 하드코디된 값이 제대로 대응하지 못할 수 있기 때문입니다.
+:::
+
+
+<br/>
+<br/>
+
+### 🔖 더 나은 해결책: WindowSizeClass 사용하기
+
+<div align="center">
+  <img src={WindowSizeClass} alt="Loading"/>
+  <p style={{ fontSize: "0.85rem", color: "#6c757d", textAlign: "center" }}>
+        <a href="https://developer.android.com/develop/ui/compose/layouts/adaptive/use-window-size-classes">Use window size classes | Jetpack Compose | Android Developers</a>
+    </p>
+</div>
+
+Compose에서는 화면 크기를 Compat, Medium, Expanded 3가지 상태로 구분하는 WindowSizeClass를 제공합니다.
+
+해당 클래스를 사용하면 하드코딩된 값 없이도 다양한 디바이스 환경에 맞는 레이아웃을 쉽게 구성할 수 있습니다.
+
+<br/>
+
+우선, 아래의 의존성을 추가해야 합니다.
+
+```kotlin
+implementation("androidx.compose.material3:material3-window-size-class:1.2.1")
+```
+
+<br/>
+
+아래는 실제 사용 예시입니다.
+
+```kotlin
+@Composable
+fun ResponsiveAlbumGrid(albums: List<AlbumUiData>) {
+    val activity = LocalContext.current as Activity
+    val windowSizeClass = calculateWindowSizeClass(activity)
+
+    val itemsPerRow = when (windowSizeClass.widthSizeClass) {
+        WindowWidthSizeClass.Compact -> 2
+        WindowWidthSizeClass.Medium -> 4
+        WindowWidthSizeClass.Expanded -> 6
+        else -> 2
+    }
+
+    val spacing = 20.dp
+
+    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
+        val itemWidthPx = (maxWidth.toPx() - spacing.toPx() * (itemsPerRow - 1)) / itemsPerRow
+        val itemWidthDp = with(LocalDensity.current) { itemWidthPx.toDp() }
+
+        FlowRow(
+            modifier = Modifier.fillMaxWidth(),
+            maxItemsInEachRow = itemsPerRow,
+            horizontalArrangement = Arrangement.spacedBy(spacing),
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            albums.forEach { album ->
+                AlbumComponent(
+                    album = album,
+                    modifier = Modifier.width(itemWidthDp)
+                )
+            }
+        }
+    }
+}
+```
+
+
+#### WindowSizeClass 사용시 장점
+- Android가 정의한 표준을 따라 안정적으로 레이아웃을 설계할 수 있습니다.
+- 폴더블 기기, 태블릿, 멀티 윈도우 모드 등 다양한 디바이스 환경에 자연스럽게 대응됩니다.
+- 하드코딩된 값을 사용하는 것보다 훨씬 유지보수하기 쉽고 명확한 UI 구조를 만들 수 있습니다.
+
+
+<br/>
+
+### **🚩 마무리하며**
+
+결국, LazyVerticalGrid의 문제를 Compose의 FlowRow를 통해 깔끔하게 해결할 수 있었습니다.
+
+하드코딩된 기준점보다는 **WindowSizeClass를 활용하는 방식**이 더 나은 선택이라는 것도 함께 배울 수 있었습니다.

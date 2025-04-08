@@ -43,6 +43,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/가짜 로딩을 활용하는 방법',
+    component: ComponentCreator('/blog/가짜 로딩을 활용하는 방법', '9bd'),
+    exact: true
+  },
+  {
     path: '/blog/Apple Music API 사용기',
     component: ComponentCreator('/blog/Apple Music API 사용기', '144'),
     exact: true
@@ -148,18 +153,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/가짜 로딩을 활용하는 방법',
-    component: ComponentCreator('/blog/가짜 로딩을 활용하는 방법', '9bd'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
     path: '/techblog',
-    component: ComponentCreator('/techblog', 'a79'),
+    component: ComponentCreator('/techblog', '984'),
     exact: true
   },
   {
@@ -174,17 +174,17 @@ export default [
   },
   {
     path: '/techblog/authors/donghyeon',
-    component: ComponentCreator('/techblog/authors/donghyeon', '610'),
+    component: ComponentCreator('/techblog/authors/donghyeon', '2a6'),
     exact: true
   },
   {
     path: '/techblog/authors/donghyeon/authors/2',
-    component: ComponentCreator('/techblog/authors/donghyeon/authors/2', '32d'),
+    component: ComponentCreator('/techblog/authors/donghyeon/authors/2', 'f63'),
     exact: true
   },
   {
     path: '/techblog/page/2',
-    component: ComponentCreator('/techblog/page/2', '9c9'),
+    component: ComponentCreator('/techblog/page/2', 'f56'),
     exact: true
   },
   {
@@ -194,22 +194,22 @@ export default [
   },
   {
     path: '/techblog/tags/music-app',
-    component: ComponentCreator('/techblog/tags/music-app', 'fd8'),
+    component: ComponentCreator('/techblog/tags/music-app', 'e30'),
     exact: true
   },
   {
     path: '/techblog/tags/music-app/page/2',
-    component: ComponentCreator('/techblog/tags/music-app/page/2', '705'),
+    component: ComponentCreator('/techblog/tags/music-app/page/2', '4f5'),
     exact: true
   },
   {
     path: '/techblog/tags/we-p-li',
-    component: ComponentCreator('/techblog/tags/we-p-li', '5d9'),
+    component: ComponentCreator('/techblog/tags/we-p-li', 'c09'),
     exact: true
   },
   {
     path: '/techblog/tags/we-p-li/page/2',
-    component: ComponentCreator('/techblog/tags/we-p-li/page/2', '17f'),
+    component: ComponentCreator('/techblog/tags/we-p-li/page/2', 'b3c'),
     exact: true
   },
   {
@@ -223,112 +223,27 @@ export default [
     exact: true
   },
   {
+    path: '/techblog/wepli-tech-blog-flow-grid',
+    component: ComponentCreator('/techblog/wepli-tech-blog-flow-grid', 'cd4'),
+    exact: true
+  },
+  {
     path: '/techblog/wepli-tech-blog-supabase-json',
     component: ComponentCreator('/techblog/wepli-tech-blog-supabase-json', '839'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '758'),
+    component: ComponentCreator('/docs', '890'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '03f'),
+        component: ComponentCreator('/docs', 'cd4'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '10e'),
+            component: ComponentCreator('/docs', 'baa'),
             routes: [
-              {
-                path: '/docs/category/1-api',
-                component: ComponentCreator('/docs/category/1-api', 'dfd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/2-1-requests',
-                component: ComponentCreator('/docs/category/2-1-requests', '59a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/2-2-responses',
-                component: ComponentCreator('/docs/category/2-2-responses', '857'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/2-apple-music-api-docs',
-                component: ComponentCreator('/docs/category/2-apple-music-api-docs', '808'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/search',
-                component: ComponentCreator('/docs/category/search', '30d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/song',
-                component: ComponentCreator('/docs/category/song', '9bc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/기술-스택',
-                component: ComponentCreator('/docs/category/기술-스택', 'e14'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/소프트웨어-요구사항-명세서-srs',
-                component: ComponentCreator('/docs/category/소프트웨어-요구사항-명세서-srs', '9bd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/service-introduce',
-                component: ComponentCreator('/docs/service-introduce', '7f7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Softwrare Requirements Specification/appendices',
-                component: ComponentCreator('/docs/Softwrare Requirements Specification/appendices', '9d7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Softwrare Requirements Specification/interface-requirements',
-                component: ComponentCreator('/docs/Softwrare Requirements Specification/interface-requirements', 'b39'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Softwrare Requirements Specification/introduction',
-                component: ComponentCreator('/docs/Softwrare Requirements Specification/introduction', 'd6c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Softwrare Requirements Specification/overall-description',
-                component: ComponentCreator('/docs/Softwrare Requirements Specification/overall-description', '29d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Softwrare Requirements Specification/specific-requirements',
-                component: ComponentCreator('/docs/Softwrare Requirements Specification/specific-requirements', '0e1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
               {
                 path: '/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx',
                 component: ComponentCreator('/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx', 'a3d'),
@@ -392,6 +307,96 @@ export default [
               {
                 path: '/docs/기술 스택/versions',
                 component: ComponentCreator('/docs/기술 스택/versions', 'be8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/1-api',
+                component: ComponentCreator('/docs/category/1-api', 'dfd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/2-1-requests',
+                component: ComponentCreator('/docs/category/2-1-requests', '59a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/2-2-responses',
+                component: ComponentCreator('/docs/category/2-2-responses', '857'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/2-apple-music-api-docs',
+                component: ComponentCreator('/docs/category/2-apple-music-api-docs', '808'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/기술-스택',
+                component: ComponentCreator('/docs/category/기술-스택', 'e14'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/소프트웨어-요구사항-명세서-srs',
+                component: ComponentCreator('/docs/category/소프트웨어-요구사항-명세서-srs', '9bd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/search',
+                component: ComponentCreator('/docs/category/search', '30d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/song',
+                component: ComponentCreator('/docs/category/song', '9bc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/service-introduce',
+                component: ComponentCreator('/docs/service-introduce', '7f7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Softwrare Requirements Specification/appendices',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/appendices', '9d7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Softwrare Requirements Specification/interface-requirements',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/interface-requirements', 'b39'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Softwrare Requirements Specification/introduction',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/introduction', 'd6c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Softwrare Requirements Specification/overall-description',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/overall-description', '29d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Softwrare Requirements Specification/specific-requirements',
+                component: ComponentCreator('/docs/Softwrare Requirements Specification/specific-requirements', '0e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

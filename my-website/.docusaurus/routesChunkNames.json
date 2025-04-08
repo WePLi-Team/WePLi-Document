@@ -70,11 +70,22 @@
     ],
     "__props": "__props---blogc-15-573"
   },
+  "/blog/가짜 로딩을 활용하는 방법-9bd": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-가짜-로딩을-활용하는-방법edd-4b4"
+  },
   "/blog/Apple Music API 사용기-144": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -92,7 +103,7 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -103,7 +114,7 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -122,7 +133,7 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -144,7 +155,7 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -163,7 +174,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -174,7 +185,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -341,7 +352,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -352,23 +363,12 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
+        "blogMetadata": "blogMetadata---blog-가짜-로딩을-활용하는-방법ace-730"
       },
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-we-p-li를-개발하게-된-이유-819-e80"
-  },
-  "/blog/가짜 로딩을 활용하는 방법-9bd": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-apple-music-api-사용기ace-020"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-가짜-로딩을-활용하는-방법edd-4b4"
   },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
@@ -377,7 +377,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/techblog-a79": {
+  "/techblog-984": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
@@ -385,10 +385,10 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-3-e-7-ba0"
+        "content": "content---techblog-8-a-1-902"
       }
     ],
     "__props": "__props---techblog-8-bb-05b"
@@ -404,41 +404,44 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
+        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
       },
       "plugin": "plugin---techblog-977-c48"
     },
     "sidebar": "sidebar---techblogf-94-2f2",
     "__props": "__props---techblog-authors-7-ab-114"
   },
-  "/techblog/authors/donghyeon-610": {
+  "/techblog/authors/donghyeon-2a6": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
+        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
       },
       "plugin": "plugin---techblog-977-c48"
     },
     "items": [
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-3-e-7-ba0"
+        "content": "content---techblog-8-a-1-902"
       }
     ],
     "sidebar": "sidebar---techblogf-94-2f2",
     "__props": "__props---techblog-authors-donghyeon-66-f-b68"
   },
-  "/techblog/authors/donghyeon/authors/2-32d": {
+  "/techblog/authors/donghyeon/authors/2-f63": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
+        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
       },
       "plugin": "plugin---techblog-977-c48"
     },
     "items": [
+      {
+        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+      },
       {
         "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
       }
@@ -446,13 +449,16 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "__props": "__props---techblog-authors-donghyeon-authors-23-ab-9b7"
   },
-  "/techblog/page/2-9c9": {
+  "/techblog/page/2-f56": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
     },
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
+      {
+        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+      },
       {
         "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
       }
@@ -467,7 +473,7 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "__props": "__props---techblog-tags-0-c-8-12d"
   },
-  "/techblog/tags/music-app-fd8": {
+  "/techblog/tags/music-app-e30": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
@@ -475,28 +481,31 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-3-e-7-ba0"
+        "content": "content---techblog-8-a-1-902"
       }
     ],
     "__props": "__props---techblog-tags-music-app-5-c-0-1c0"
   },
-  "/techblog/tags/music-app/page/2-705": {
+  "/techblog/tags/music-app/page/2-4f5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
     },
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
+      {
+        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+      },
       {
         "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
       }
     ],
     "__props": "__props---techblog-tags-music-app-page-2-ecc-5b4"
   },
-  "/techblog/tags/we-p-li-5d9": {
+  "/techblog/tags/we-p-li-c09": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
@@ -504,21 +513,24 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-3-e-7-ba0"
+        "content": "content---techblog-8-a-1-902"
       }
     ],
     "__props": "__props---techblog-tags-we-p-li-294-493"
   },
-  "/techblog/tags/we-p-li/page/2-17f": {
+  "/techblog/tags/we-p-li/page/2-b3c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---techblog-977-c48"
     },
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
+      {
+        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+      },
       {
         "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
       }
@@ -529,7 +541,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
+        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
       },
       "plugin": "plugin---techblog-977-c48"
     },
@@ -540,96 +552,47 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
+        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
       },
       "plugin": "plugin---techblog-977-c48"
     },
     "sidebar": "sidebar---techblogf-94-2f2",
     "content": "content---techblog-wepli-tech-blog-composable-to-bitmap-2-eb-297"
   },
+  "/techblog/wepli-tech-blog-flow-grid-cd4": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+      },
+      "plugin": "plugin---techblog-977-c48"
+    },
+    "sidebar": "sidebar---techblogf-94-2f2",
+    "content": "content---techblog-2025-04-08-flow-gridcbf-270"
+  },
   "/techblog/wepli-tech-blog-supabase-json-839": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
+        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
       },
       "plugin": "plugin---techblog-977-c48"
     },
     "sidebar": "sidebar---techblogf-94-2f2",
     "content": "content---techblog-wepli-tech-blog-supabase-json-92-b-753"
   },
-  "/docs-758": {
+  "/docs-890": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-03f": {
+  "/docs-cd4": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-10e": {
+  "/docs-baa": {
     "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/docs/category/1-api-dfd": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-1-apif-30-a45"
-  },
-  "/docs/category/2-1-requests-59a": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-2-1-requests-3-bd-b42"
-  },
-  "/docs/category/2-2-responses-857": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-2-2-responses-689-a99"
-  },
-  "/docs/category/2-apple-music-api-docs-808": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-2-apple-music-api-docs-11-c-704"
-  },
-  "/docs/category/search-30d": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-searchc-51-5a6"
-  },
-  "/docs/category/song-9bc": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-song-937-c61"
-  },
-  "/docs/category/기술-스택-e14": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-기술-스택-8-a-2-900"
-  },
-  "/docs/category/소프트웨어-요구사항-명세서-srs-9bd": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-소프트웨어-요구사항-명세서-srsa-64-ba4"
-  },
-  "/docs/intro-61d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/docs/service-introduce-7f7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-service-introducee-6-a-b19"
-  },
-  "/docs/Softwrare Requirements Specification/appendices-9d7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-softwrare-requirements-specification-appendices-732-232"
-  },
-  "/docs/Softwrare Requirements Specification/interface-requirements-b39": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-softwrare-requirements-specification-interface-requirementscbb-9dc"
-  },
-  "/docs/Softwrare Requirements Specification/introduction-d6c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-softwrare-requirements-specification-introduction-71-f-de8"
-  },
-  "/docs/Softwrare Requirements Specification/overall-description-29d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-softwrare-requirements-specification-overall-descriptione-81-227"
-  },
-  "/docs/Softwrare Requirements Specification/specific-requirements-0e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-softwrare-requirements-specification-specific-requirementsa-8-e-905"
   },
   "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx-a3d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -674,6 +637,66 @@
   "/docs/기술 스택/versions-be8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-기술-스택-versions-4-d-0-c40"
+  },
+  "/docs/category/1-api-dfd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-1-apif-30-a45"
+  },
+  "/docs/category/2-1-requests-59a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-2-1-requests-3-bd-b42"
+  },
+  "/docs/category/2-2-responses-857": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-2-2-responses-689-a99"
+  },
+  "/docs/category/2-apple-music-api-docs-808": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-2-apple-music-api-docs-11-c-704"
+  },
+  "/docs/category/기술-스택-e14": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-기술-스택-8-a-2-900"
+  },
+  "/docs/category/소프트웨어-요구사항-명세서-srs-9bd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-소프트웨어-요구사항-명세서-srsa-64-ba4"
+  },
+  "/docs/category/search-30d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-searchc-51-5a6"
+  },
+  "/docs/category/song-9bc": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-song-937-c61"
+  },
+  "/docs/intro-61d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/service-introduce-7f7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-service-introducee-6-a-b19"
+  },
+  "/docs/Softwrare Requirements Specification/appendices-9d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-softwrare-requirements-specification-appendices-732-232"
+  },
+  "/docs/Softwrare Requirements Specification/interface-requirements-b39": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-softwrare-requirements-specification-interface-requirementscbb-9dc"
+  },
+  "/docs/Softwrare Requirements Specification/introduction-d6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-softwrare-requirements-specification-introduction-71-f-de8"
+  },
+  "/docs/Softwrare Requirements Specification/overall-description-29d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-softwrare-requirements-specification-overall-descriptione-81-227"
+  },
+  "/docs/Softwrare Requirements Specification/specific-requirements-0e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-softwrare-requirements-specification-specific-requirementsa-8-e-905"
   },
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

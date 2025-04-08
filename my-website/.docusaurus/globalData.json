@@ -11,41 +11,6 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "service-introduce",
-              "path": "/docs/service-introduce",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/appendices",
-              "path": "/docs/Softwrare Requirements Specification/appendices",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/interface-requirements",
-              "path": "/docs/Softwrare Requirements Specification/interface-requirements",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/introduction",
-              "path": "/docs/Softwrare Requirements Specification/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/overall-description",
-              "path": "/docs/Softwrare Requirements Specification/overall-description",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Softwrare Requirements Specification/specific-requirements",
-              "path": "/docs/Softwrare Requirements Specification/specific-requirements",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx",
               "path": "/docs/기술 스택/API Docs/Apple Music Docs/Requests/Search-API/get_catalog_search_suggestions.mdx",
               "sidebar": "tutorialSidebar"
@@ -98,6 +63,41 @@
             {
               "id": "기술 스택/versions",
               "path": "/docs/기술 스택/versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "service-introduce",
+              "path": "/docs/service-introduce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/appendices",
+              "path": "/docs/Softwrare Requirements Specification/appendices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/interface-requirements",
+              "path": "/docs/Softwrare Requirements Specification/interface-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/introduction",
+              "path": "/docs/Softwrare Requirements Specification/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/overall-description",
+              "path": "/docs/Softwrare Requirements Specification/overall-description",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Softwrare Requirements Specification/specific-requirements",
+              "path": "/docs/Softwrare Requirements Specification/specific-requirements",
               "sidebar": "tutorialSidebar"
             },
             {

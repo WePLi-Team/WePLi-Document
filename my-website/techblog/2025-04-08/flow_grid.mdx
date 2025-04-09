@@ -123,13 +123,21 @@ LazyVerticalGrid를 대신할 방안을 찾기 위해 다시 한 번 UI 요구�
 ### ✨ FlowRow를 이용한 반응형 그리드 구현
 
 ```kotlin
+@OptIn(ExperimentalMaterial3WindowSizeClassApi::class, ExperimentalLayoutApi::class)
 @Composable
-fun ResponsiveAlbumGrid(albums: List<AlbumUiData>) {
-    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
-        val isCompact = maxWidth < 500.dp
-        val itemsPerRow = if (isCompact) 2 else 4
-        val spacing = 20.dp
+fun ResponsiveAlbumGrid(albums: List<AlbumUiData>, modifier: Modifier = Modifier) {
+    val activity = LocalActivity.current
+    val windowSizeClass = activity?.let { calculateWindowSizeClass(it) }
 
+    val spacing = 20.dp
+    val itemsPerRow = when (windowSizeClass?.widthSizeClass) {
+        WindowWidthSizeClass.Compact -> 2
+        WindowWidthSizeClass.Medium,
+        WindowWidthSizeClass.Expanded -> 4
+        else -> 2
+    }
+
+    BoxWithConstraints(modifier = modifier.fillMaxWidth()) {
         val itemWidthPx = (maxWidth.toPx() - spacing.toPx() * (itemsPerRow - 1)) / itemsPerRow
         val itemWidthDp = with(LocalDensity.current) { itemWidthPx.toDp() }
 

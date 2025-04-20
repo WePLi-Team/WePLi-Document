@@ -388,7 +388,7 @@
         "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-authors-donghyeon-authors-28-a-1-d79"
       }
     ],
     "__props": "__props---techblog-8-bb-05b"
@@ -404,7 +404,7 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
       },
       "plugin": "plugin---techblog-977-c48"
     },
@@ -415,7 +415,7 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
       },
       "plugin": "plugin---techblog-977-c48"
     },
@@ -424,7 +424,7 @@
         "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-authors-donghyeon-authors-28-a-1-d79"
       }
     ],
     "sidebar": "sidebar---techblogf-94-2f2",
@@ -434,16 +434,16 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
       },
       "plugin": "plugin---techblog-977-c48"
     },
     "items": [
       {
-        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+        "content": "content---techblog-authors-donghyeon-authors-23-e-7-7d8"
       },
       {
-        "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
+        "content": "content---techblog-authors-donghyeon-authors-3-af-5-e1a"
       }
     ],
     "sidebar": "sidebar---techblogf-94-2f2",
@@ -457,10 +457,10 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
       {
-        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+        "content": "content---techblog-authors-donghyeon-authors-23-e-7-7d8"
       },
       {
-        "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
+        "content": "content---techblog-authors-donghyeon-authors-3-af-5-e1a"
       }
     ],
     "__props": "__props---techblog-page-2-c-6-d-402"
@@ -484,7 +484,7 @@
         "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-authors-donghyeon-authors-28-a-1-d79"
       }
     ],
     "__props": "__props---techblog-tags-music-app-5-c-0-1c0"
@@ -497,10 +497,10 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
       {
-        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+        "content": "content---techblog-authors-donghyeon-authors-23-e-7-7d8"
       },
       {
-        "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
+        "content": "content---techblog-authors-donghyeon-authors-3-af-5-e1a"
       }
     ],
     "__props": "__props---techblog-tags-music-app-page-2-ecc-5b4"
@@ -516,7 +516,7 @@
         "content": "content---techblog-27-d-44d"
       },
       {
-        "content": "content---techblog-8-a-1-902"
+        "content": "content---techblog-authors-donghyeon-authors-28-a-1-d79"
       }
     ],
     "__props": "__props---techblog-tags-we-p-li-294-493"
@@ -529,10 +529,10 @@
     "sidebar": "sidebar---techblogf-94-2f2",
     "items": [
       {
-        "content": "content---techblog-authors-donghyeon-3-e-7-8e1"
+        "content": "content---techblog-authors-donghyeon-authors-23-e-7-7d8"
       },
       {
-        "content": "content---techblog-authors-donghyeon-authors-2-af-5-4fa"
+        "content": "content---techblog-authors-donghyeon-authors-3-af-5-e1a"
       }
     ],
     "__props": "__props---techblog-tags-we-p-li-page-2-c-98-23e"
@@ -541,7 +541,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
       },
       "plugin": "plugin---techblog-977-c48"
     },
@@ -552,7 +552,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
       },
       "plugin": "plugin---techblog-977-c48"
     },
@@ -563,18 +563,18 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
       },
       "plugin": "plugin---techblog-977-c48"
     },
     "sidebar": "sidebar---techblogf-94-2f2",
-    "content": "content---techblog-2025-04-08-flow-gridcbf-270"
+    "content": "content---techblog-wepli-tech-blog-flow-gridcbf-b70"
   },
   "/techblog/wepli-tech-blog-supabase-json-839": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---techblog-2025-04-08-flow-gridbb-2-ea4"
+        "blogMetadata": "blogMetadata---techblog-authorsbb-2-d68"
       },
       "plugin": "plugin---techblog-977-c48"
     },

@@ -47,7 +47,7 @@ Compose를 통해 음악 정보 화면을 구현하면서, 마지막에 아티�
 <br/>
 <br/>
 
-### 📌 문제 상황: LazyVerticalGrid는 LazyColumn과 함께 쓸 수 없다.
+### 문제 상황: LazyVerticalGrid는 LazyColumn과 함께 쓸 수 없다.
 
 처음 구성한 구조는 아래와 같습니다.
 
@@ -81,7 +81,7 @@ LazyVerticalGrid 뿐만 아니라 LazyColumn(or Row) 내에 같은 방향의 스
 
 <br/>
 
-### ✅ 명확한 해결 방법을 찾기 위한 UI 요구사항 재정리
+### 명확한 해결 방법을 찾기 위한 UI 요구사항 재정리
 
 LazyVerticalGrid를 대신할 방안을 찾기 위해 다시 한 번 UI 요구사항부터 명확히 정리해보기 시작했습니다.
 
@@ -99,7 +99,7 @@ LazyVerticalGrid를 대신할 방안을 찾기 위해 다시 한 번 UI 요구�
 
 <br/>
 
-### 💡요구사항을 기반으로 구현 로직을 고민하기
+### 요구사항을 기반으로 구현 로직을 고민하기
 
 위의 요구사항을 충족하기 위해 고려해야 할 사항은 다음과 같습니다.
 
@@ -120,7 +120,7 @@ LazyVerticalGrid를 대신할 방안을 찾기 위해 다시 한 번 UI 요구�
 
 <br/>
 
-### ✨ FlowRow를 이용한 반응형 그리드 구현
+### FlowRow를 이용한 반응형 그리드 구현
 
 ```kotlin
 @OptIn(ExperimentalMaterial3WindowSizeClassApi::class, ExperimentalLayoutApi::class)
@@ -166,7 +166,7 @@ fun ResponsiveAlbumGrid(albums: List<AlbumUiData>, modifier: Modifier = Modifier
 
 <br/>
 
-### 🚨 개선 필요한 부분: 하드코딩된 값 피하기
+### 개선 필요한 부분: 하드코딩된 값 피하기
 
 위의 코드로도 충분히 잘 동작하였으나, 한 가지 아쉬운 점이 있었습니다.
 화면의 크기를 결정하는 기준을 아래와 같이 하드코딩해서 구현하고 있습니다.
@@ -197,7 +197,7 @@ val isCompact = maxWidth < 500.dp
 <br/>
 <br/>
 
-### 🔖 더 나은 해결책: WindowSizeClass 사용하기
+### 더 나은 해결책: WindowSizeClass 사용하기
 
 <div align="center">
   <img src={WindowSizeClass} alt="Loading"/>
@@ -267,7 +267,7 @@ fun ResponsiveAlbumGrid(albums: List<AlbumUiData>) {
 
 <br/>
 
-### **🚩 마무리하며**
+### **마무리하며**
 
 결국, LazyVerticalGrid의 문제를 Compose의 FlowRow를 통해 깔끔하게 해결할 수 있었습니다.
 

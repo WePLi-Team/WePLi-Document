@@ -13,7 +13,7 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   // url: 'https://wepli.site',
   // baseUrl: '/',
-  url: 'https://wepli-team.github.io/WePLi-Document/',
+  url: 'https://wepli-team.github.io/WePLi-Document',
   baseUrl: '/WePLi-Document',
 
   // GitHub pages deployment config.

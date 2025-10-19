@@ -14,7 +14,7 @@ const config: Config = {
   // url: 'https://wepli.site',
   // baseUrl: '/',
   url: 'https://wepli-team.github.io/WePLi-Document',
-  baseUrl: '/WePLi-Document',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

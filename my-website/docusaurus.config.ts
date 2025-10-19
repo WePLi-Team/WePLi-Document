@@ -8,12 +8,13 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://wepli.site',
   // url: 'https://wepli-test.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-  // baseUrl: '/WePLi-Document',
+  // url: 'https://wepli.site',
+  // baseUrl: '/',
+  url: 'https://wepli-team.github.io/WePLi-Document/',
+  baseUrl: '/WePLi-Document',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

@@ -180,10 +180,15 @@ val isCompact = maxWidth < 500.dp
 그러나 기준도 애매하고 좋은 방법은 아닌 것 같아서 공식 문서를 찾아 보았습니다.
 
 <div align="center">
-  <img src={LayoutDocs} alt="Loading"/>
+  <img src={LayoutDocs} alt="Loading" />
   <p style={{ fontSize: "0.85rem", color: "#6c757d", textAlign: "center" }}>
-        <a href="https://developer.android.com/develop/ui/compose/layouts/adaptive/support-different-screen-sizes?hl=ko&utm_source=chatgpt.com#explicit-layout-changes">다양한 크기 지원 | Jectpack Compose | Android Developers</a>
-    </p>
+    <a
+      href="https://developer.android.com/develop/ui/compose/layouts/adaptive/support-different-screen-sizes?hl=ko&utm_source=chatgpt.com#explicit-layout-changes"
+      target="_blank"
+      rel="noopener noreferrer">
+      다양한 크기 지원 | Jetpack Compose | Android Developers
+    </a>
+  </p>
 </div>
 
 역시나 공식 문서에서는 **레이아웃을 결정할 때 실제 하드웨어 값을 사용하지 말 것**을 권장하고 있었습니다.
